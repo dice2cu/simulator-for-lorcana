@@ -1,0 +1,3864 @@
+{
+  "cards": [
+    {
+      "fullName": "Anna - Soothing Sister",
+      "id": 2513,
+      "setCode": "11",
+      "name": "Anna",
+      "version": "Soothing Sister",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 1,
+      "subtypes": ["Floodborn", "Hero", "Queen"],
+      "fullText": "UNUSUAL TRANSFORMATION If a card left a player's discard\nthis turn, this card gains Shift 0 ⬡. (You may pay 0 ⬡ to\nplay this on top of one of your characters named Anna.)\nWARM HEART Whenever this character quests, you may\ngain lore equal to the ◊ of a character card in your discard.\nIf you do, put that card on the bottom of your deck.",
+      "type": "Character",
+      "abilities": [
+        {
+          "effect": "If a card left a player's discard this turn, this card gains Shift 0 ⬡. (You may pay 0 ⬡ to play this on top of one of your characters named Anna.)",
+          "fullText": "UNUSUAL TRANSFORMATION If a card left a player's discard\nthis turn, this card gains Shift 0 ⬡. (You may pay 0 ⬡ to\nplay this on top of one of your characters named Anna.)",
+          "name": "UNUSUAL TRANSFORMATION",
+          "type": "static"
+        },
+        {
+          "effect": "Whenever this character quests, you may gain lore equal to the ◊ of a character card in your discard. If you do, put that card on the bottom of your deck.",
+          "fullText": "WARM HEART Whenever this character quests, you may\ngain lore equal to the ◊ of a character card in your discard.\nIf you do, put that card on the bottom of your deck.",
+          "name": "WARM HEART",
+          "type": "triggered"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "setCode": "1",
+      "fullName": "Cinderella - Gentle and Kind",
+      "fullText": "Singer 5 (This character counts as cost 5 to sing\nsongs.)\nA WONDERFUL DREAM ⟳ — Remove up to 3\ndamage from chosen Princess character.",
+      "name": "Cinderella",
+      "version": "Gentle and Kind",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Singer 5 (This character counts as cost 5 to sing\nsongs.)",
+          "keyword": "Singer",
+          "keywordValue": "5",
+          "keywordValueNumber": 5,
+          "reminderText": "This character counts as cost 5 to sing songs."
+        },
+        {
+          "type": "activated",
+          "name": "A WONDERFUL DREAM",
+          "effect": "Remove up to 3 damage from chosen Princess character.",
+          "fullText": "A WONDERFUL DREAM ⟳ — Remove up to 3\ndamage from chosen Princess character.",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "setCode": "1",
+      "fullName": "Rapunzel - Gifted with Healing",
+      "fullText": "GLEAM AND GLOW When you play this\ncharacter, remove up to 3 damage from one of\nyour characters. Draw a card for each 1 damage\nremoved this way.",
+      "name": "Rapunzel",
+      "version": "Gifted with Healing",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "GLEAM AND GLOW",
+          "effect": "When you play this character, remove up to 3 damage from one of your characters. Draw a card for each 1 damage removed this way.",
+          "fullText": "GLEAM AND GLOW When you play this\ncharacter, remove up to 3 damage from one of\nyour characters. Draw a card for each 1 damage\nremoved this way."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "setCode": "1",
+      "fullName": "Be Our Guest",
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nLook at the top 4 cards of your deck. You may reveal a\ncharacter card and put it into your hand. Put the rest\non the bottom of your deck in any order.",
+      "name": "Be Our Guest",
+      "type": "Action",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 2 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Look at the top 4 cards of your deck. You may reveal a\ncharacter card and put it into your hand. Put the rest\non the bottom of your deck in any order."
+      ]
+    },
+    {
+      "id": 33,
+      "setCode": "1",
+      "fullName": "Lantern",
+      "fullText": "BIRTHDAY LIGHTS ⟳ — You pay 1 ⬡ less for the next\ncharacter you play this turn.",
+      "name": "Lantern",
+      "type": "Item",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "BIRTHDAY LIGHTS",
+          "effect": "You pay 1 ⬡ less for the next character you play this turn.",
+          "fullText": "BIRTHDAY LIGHTS ⟳ — You pay 1 ⬡ less for the next\ncharacter you play this turn.",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "setCode": "1",
+      "fullName": "Mickey Mouse - Wayward Sorcerer",
+      "fullText": "ANIMATE BROOM You pay 1 ⬡ less to play Broom\ncharacters.\nCEASELESS WORKER Whenever one of your Broom\ncharacters is banished in a challenge, you may return\nthat card to your hand.",
+      "name": "Mickey Mouse",
+      "version": "Wayward Sorcerer",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "ANIMATE BROOM",
+          "effect": "You pay 1 ⬡ less to play Broom characters.",
+          "fullText": "ANIMATE BROOM You pay 1 ⬡ less to play Broom\ncharacters."
+        },
+        {
+          "type": "triggered",
+          "name": "CEASELESS WORKER",
+          "effect": "Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand.",
+          "fullText": "CEASELESS WORKER Whenever one of your Broom\ncharacters is banished in a challenge, you may return\nthat card to your hand."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "setCode": "1",
+      "fullName": "Freeze",
+      "fullText": "Exert chosen opposing character.",
+      "name": "Freeze",
+      "type": "Action",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": false,
+      "effects": [
+        "Exert chosen opposing character."
+      ]
+    },
+    {
+      "id": 64,
+      "setCode": "1",
+      "fullName": "Friends on the Other Side",
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this song\nfor free.)\nDraw 2 cards.",
+      "name": "Friends on the Other Side",
+      "type": "Action",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 3 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 3 or more can ⟳ to sing this song\nfor free.)"
+        }
+      ],
+      "effects": [
+        "Draw 2 cards."
+      ]
+    },
+    {
+      "id": 66,
+      "setCode": "1",
+      "fullName": "Magic Mirror",
+      "fullText": "SPEAK! ⟳, 4 ⬡ — Draw a card.",
+      "name": "Magic Mirror",
+      "type": "Item",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "SPEAK!",
+          "effect": "Draw a card.",
+          "fullText": "SPEAK! ⟳, 4 ⬡ — Draw a card.",
+          "costs": [
+            "⟳",
+            "4 ⬡"
+          ],
+          "costsText": "⟳, 4 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "setCode": "1",
+      "fullName": "Ursula's Cauldron",
+      "fullText": "PEER INTO THE DEPTHS ⟳ — Look at the top 2\ncards of your deck. Put one on the top of your deck\nand the other on the bottom.",
+      "name": "Ursula's Cauldron",
+      "type": "Item",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "PEER INTO THE DEPTHS",
+          "effect": "Look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",
+          "fullText": "PEER INTO THE DEPTHS ⟳ — Look at the top 2\ncards of your deck. Put one on the top of your deck\nand the other on the bottom.",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "setCode": "1",
+      "fullName": "John Silver - Alien Pirate",
+      "fullText": "PICK YOUR FIGHTS When you play this character\nand whenever he quests, chosen opposing character\ngains Reckless during their next turn. (They can't\nquest and must challenge if able.)",
+      "name": "John Silver",
+      "version": "Alien Pirate",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Alien",
+        "Pirate",
+        "Captain"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "PICK YOUR FIGHTS",
+          "effect": "When you play this character and whenever he quests, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
+          "fullText": "PICK YOUR FIGHTS When you play this character\nand whenever he quests, chosen opposing character\ngains Reckless during their next turn. (They can't\nquest and must challenge if able.)"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "setCode": "1",
+      "fullName": "Stolen Scimitar",
+      "fullText": "SLASH ⟳ — Chosen character gets +1 ¤ this turn.\nIf a character named Aladdin is chosen, he gets +2 ¤\ninstead.",
+      "name": "Stolen Scimitar",
+      "type": "Item",
+      "color": "Emerald",
+      "cost": 2,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "SLASH",
+          "effect": "Chosen character gets +1 ¤ this turn. If a character named Aladdin is chosen, he gets +2 ¤ instead.",
+          "fullText": "SLASH ⟳ — Chosen character gets +1 ¤ this turn.\nIf a character named Aladdin is chosen, he gets +2 ¤\ninstead.",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "setCode": "1",
+      "fullName": "Aladdin - Heroic Outlaw",
+      "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one\nof your characters named Aladdin.)\nDARING EXPLOIT During your turn, whenever this\ncharacter banishes another character in a challenge,\nyou gain 2 lore and each opponent loses 2 lore.",
+      "name": "Aladdin",
+      "version": "Heroic Outlaw",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one\nof your characters named Aladdin.)",
+          "keyword": "Shift",
+          "keywordValue": "5",
+          "keywordValueNumber": 5,
+          "reminderText": "You may pay 5 ⬡ to play this on top of one of your characters named Aladdin."
+        },
+        {
+          "type": "triggered",
+          "name": "DARING EXPLOIT",
+          "effect": "During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore.",
+          "fullText": "DARING EXPLOIT During your turn, whenever this\ncharacter banishes another character in a challenge,\nyou gain 2 lore and each opponent loses 2 lore."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "setCode": "1",
+      "fullName": "Be Prepared",
+      "fullText": "(A character with cost 7 or more can ⟳ to sing this\nsong for free.)\nBanish all characters.",
+      "name": "Be Prepared",
+      "type": "Action",
+      "color": "Ruby",
+      "cost": 7,
+      "inkwell": false,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 7 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 7 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Banish all characters."
+      ]
+    },
+    {
+      "id": 142,
+      "setCode": "1",
+      "fullName": "Belle - Strange but Special",
+      "fullText": "READ A BOOK During your turn, you may ink an additional\ncard.\nMY FAVORITE PART! While you have 10 or more cards in\nyour inkwell, this character gets +4 ◊.",
+      "name": "Belle",
+      "version": "Strange but Special",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "READ A BOOK",
+          "effect": "During your turn, you may ink an additional card.",
+          "fullText": "READ A BOOK During your turn, you may ink an additional\ncard."
+        },
+        {
+          "type": "static",
+          "name": "MY FAVORITE PART!",
+          "effect": "While you have 10 or more cards in your inkwell, this character gets +4 ◊.",
+          "fullText": "MY FAVORITE PART! While you have 10 or more cards in\nyour inkwell, this character gets +4 ◊."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "setCode": "1",
+      "fullName": "Hades - Infernal Schemer",
+      "fullText": "IS THERE A DOWNSIDE TO THIS? When you\nplay this character, you may put chosen opposing\ncharacter into their player's inkwell facedown.",
+      "name": "Hades",
+      "version": "Infernal Schemer",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 7,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 6,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Deity"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "IS THERE A DOWNSIDE TO THIS?",
+          "effect": "When you play this character, you may put chosen opposing character into their player's inkwell facedown.",
+          "fullText": "IS THERE A DOWNSIDE TO THIS? When you\nplay this character, you may put chosen opposing\ncharacter into their player's inkwell facedown."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "setCode": "1",
+      "fullName": "Mickey Mouse - Detective",
+      "fullText": "GET A CLUE When you play this character,\nyou may put the top card of your deck into your\ninkwell facedown and exerted.",
+      "name": "Mickey Mouse",
+      "version": "Detective",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 1,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Detective"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "GET A CLUE",
+          "effect": "When you play this character, you may put the top card of your deck into your inkwell facedown and exerted.",
+          "fullText": "GET A CLUE When you play this character,\nyou may put the top card of your deck into your\ninkwell facedown and exerted."
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "setCode": "1",
+      "fullName": "Let It Go",
+      "fullText": "(A character with cost 5 or more can ⟳ to sing this song for free.)\nPut chosen character into their player's inkwell facedown and\nexerted.",
+      "name": "Let It Go",
+      "type": "Action",
+      "color": "Sapphire",
+      "cost": 5,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 5 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 5 or more can ⟳ to sing this song for free.)"
+        }
+      ],
+      "effects": [
+        "Put chosen character into their player's inkwell facedown and\nexerted."
+      ]
+    },
+    {
+      "id": 195,
+      "setCode": "1",
+      "fullName": "A Whole New World",
+      "fullText": "(A character with cost 5 or more can ⟳ to sing this\nsong for free.)\nEach player discards their hand and draws 7 cards.",
+      "name": "A Whole New World",
+      "type": "Action",
+      "color": "Steel",
+      "cost": 5,
+      "inkwell": false,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 5 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 5 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Each player discards their hand and draws 7 cards."
+      ]
+    },
+    {
+      "id": 196,
+      "setCode": "1",
+      "fullName": "Break",
+      "fullText": "Banish chosen item.",
+      "name": "Break",
+      "type": "Action",
+      "color": "Steel",
+      "cost": 2,
+      "inkwell": true,
+      "effects": [
+        "Banish chosen item."
+      ]
+    },
+    {
+      "id": 202,
+      "setCode": "1",
+      "fullName": "Frying Pan",
+      "fullText": "CLANG! Banish this item — Chosen character can't\nchallenge during their next turn.",
+      "name": "Frying Pan",
+      "type": "Item",
+      "color": "Steel",
+      "cost": 2,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "CLANG!",
+          "effect": "Chosen character can't challenge during their next turn.",
+          "fullText": "CLANG! Banish this item — Chosen character can't\nchallenge during their next turn.",
+          "costs": [
+            "Banish this item"
+          ],
+          "costsText": "Banish this item"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "setCode": "2",
+      "fullName": "Grumpy - Bad-Tempered",
+      "fullText": "THERE'S TROUBLE A-BREWIN' Your other Seven\nDwarfs characters get +1 ¤.",
+      "name": "Grumpy",
+      "version": "Bad-Tempered",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Seven Dwarfs"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "THERE'S TROUBLE A-BREWIN'",
+          "effect": "Your other Seven Dwarfs characters get +1 ¤.",
+          "fullText": "THERE'S TROUBLE A-BREWIN' Your other Seven\nDwarfs characters get +1 ¤."
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "setCode": "2",
+      "fullName": "Madam Mim - Fox",
+      "fullText": "CHASING THE RABBIT When you play this\ncharacter, banish her or return another chosen\ncharacter of yours to your hand.\nRush (This character can challenge the turn\nthey're played.)",
+      "name": "Madam Mim",
+      "version": "Fox",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "CHASING THE RABBIT",
+          "effect": "When you play this character, banish her or return another chosen character of yours to your hand.",
+          "fullText": "CHASING THE RABBIT When you play this\ncharacter, banish her or return another chosen\ncharacter of yours to your hand."
+        },
+        {
+          "type": "keyword",
+          "fullText": "Rush (This character can challenge the turn\nthey're played.)",
+          "keyword": "Rush",
+          "reminderText": "This character can challenge the turn they're played."
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "setCode": "2",
+      "fullName": "Madam Mim - Rival of Merlin",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Madam Mim.)\nGRUESOME AND GRIM ⟳ — Play a character with\ncost 4 or less for free. They gain Rush. At the end\nof the turn, banish them. (They can challenge the\nturn they're played.)",
+      "name": "Madam Mim",
+      "version": "Rival of Merlin",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Madam Mim.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Madam Mim."
+        },
+        {
+          "type": "activated",
+          "name": "GRUESOME AND GRIM",
+          "effect": "Play a character with cost 4 or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played.)",
+          "fullText": "GRUESOME AND GRIM ⟳ — Play a character with\ncost 4 or less for free. They gain Rush. At the end\nof the turn, banish them. (They can challenge the\nturn they're played.)",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "setCode": "2",
+      "fullName": "Merlin - Goat",
+      "fullText": "HERE I COME! When you play this character and\nwhen he leaves play, gain 1 lore.",
+      "name": "Merlin",
+      "version": "Goat",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "HERE I COME!",
+          "effect": "When you play this character and when he leaves play, gain 1 lore.",
+          "fullText": "HERE I COME! When you play this character and\nwhen he leaves play, gain 1 lore."
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "setCode": "2",
+      "fullName": "Gruesome and Grim",
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nPlay a character with cost 4 or less for free. They gain\nRush. At the end of the turn, banish them. (They can\nchallenge the turn they're played.)",
+      "name": "Gruesome and Grim",
+      "type": "Action",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": false,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 3 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Play a character with cost 4 or less for free. They gain\nRush. At the end of the turn, banish them. (They can\nchallenge the turn they're played.)"
+      ]
+    },
+    {
+      "id": 286,
+      "setCode": "2",
+      "fullName": "Beast - Relentless",
+      "fullText": "SECOND WIND Whenever an opposing character\ntakes damage, you may ready this character.",
+      "name": "Beast",
+      "version": "Relentless",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "SECOND WIND",
+          "effect": "Whenever an opposing character takes damage, you may ready this character.",
+          "fullText": "SECOND WIND Whenever an opposing character\ntakes damage, you may ready this character."
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "setCode": "2",
+      "fullName": "Belle - Bookworm",
+      "fullText": "USE YOUR IMAGINATION While an opponent has\nno cards in their hand, this character gets +2 ◊.",
+      "name": "Belle",
+      "version": "Bookworm",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "USE YOUR IMAGINATION",
+          "effect": "While an opponent has no cards in their hand, this character gets +2 ◊.",
+          "fullText": "USE YOUR IMAGINATION While an opponent has\nno cards in their hand, this character gets +2 ◊."
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "setCode": "2",
+      "fullName": "Donald Duck - Perfect Gentleman",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Donald Duck.)\nALLOW ME At the start of your turn, each player\nmay draw a card.",
+      "name": "Donald Duck",
+      "version": "Perfect Gentleman",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Donald Duck.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Donald Duck."
+        },
+        {
+          "type": "triggered",
+          "name": "ALLOW ME",
+          "effect": "At the start of your turn, each player may draw a card.",
+          "fullText": "ALLOW ME At the start of your turn, each player\nmay draw a card."
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "setCode": "2",
+      "fullName": "Enchantress - Unexpected Judge",
+      "fullText": "TRUE FORM While being challenged, this\ncharacter gets +2 ¤.",
+      "name": "Enchantress",
+      "version": "Unexpected Judge",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 1,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "TRUE FORM",
+          "effect": "While being challenged, this character gets +2 ¤.",
+          "fullText": "TRUE FORM While being challenged, this\ncharacter gets +2 ¤."
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "setCode": "2",
+      "fullName": "Namaari - Nemesis",
+      "fullText": "THIS SHOULDN'T TAKE LONG ⟳, Banish this\ncharacter — Banish chosen character.",
+      "name": "Namaari",
+      "version": "Nemesis",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "THIS SHOULDN'T TAKE LONG",
+          "effect": "Banish chosen character.",
+          "fullText": "THIS SHOULDN'T TAKE LONG ⟳, Banish this\ncharacter — Banish chosen character.",
+          "costs": [
+            "⟳",
+            "Banish this character"
+          ],
+          "costsText": "⟳, Banish this character"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "setCode": "2",
+      "fullName": "Alice - Growing Girl",
+      "fullText": "GOOD ADVICE Your other characters gain\nSupport. (Whenever they quest, you may add their\n¤ to another chosen character's ¤ this turn.)\nWHAT DID I DO? While this character has 10 ¤\nor more, she gets +4 ◊.",
+      "name": "Alice",
+      "version": "Growing Girl",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "GOOD ADVICE",
+          "effect": "Your other characters gain Support. (Whenever they quest, you may add their ¤ to another chosen character's ¤ this turn.)",
+          "fullText": "GOOD ADVICE Your other characters gain\nSupport. (Whenever they quest, you may add their\n¤ to another chosen character's ¤ this turn.)"
+        },
+        {
+          "type": "static",
+          "name": "WHAT DID I DO?",
+          "effect": "While this character has 10 ¤ or more, she gets +4 ◊.",
+          "fullText": "WHAT DID I DO? While this character has 10 ¤\nor more, she gets +4 ◊."
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "setCode": "2",
+      "fullName": "Beast - Selfless Protector",
+      "fullText": "SHIELD ANOTHER Whenever one of your other\ncharacters would be dealt damage, put that many\ndamage counters on this character instead.",
+      "name": "Beast",
+      "version": "Selfless Protector",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 8,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "SHIELD ANOTHER",
+          "effect": "Whenever one of your other characters would be dealt damage, put that many damage counters on this character instead.",
+          "fullText": "SHIELD ANOTHER Whenever one of your other\ncharacters would be dealt damage, put that many\ndamage counters on this character instead."
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "setCode": "2",
+      "fullName": "Beast - Tragic Hero",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Beast.)\nIT'S BETTER THIS WAY At the start of your turn, if this\ncharacter has no damage, draw a card. Otherwise, he gets\n+4 ¤ this turn.",
+      "name": "Beast",
+      "version": "Tragic Hero",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Beast.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Beast."
+        },
+        {
+          "type": "triggered",
+          "name": "IT'S BETTER THIS WAY",
+          "effect": "At the start of your turn, if this character has no damage, draw a card. Otherwise, he gets +4 ¤ this turn.",
+          "fullText": "IT'S BETTER THIS WAY At the start of your turn, if this\ncharacter has no damage, draw a card. Otherwise, he gets\n+4 ¤ this turn."
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "setCode": "2",
+      "fullName": "Hercules - Divine Hero",
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of one of your\ncharacters named Hercules.)\nResist +2 (Damage dealt to this character is reduced by 2.)",
+      "name": "Hercules",
+      "version": "Divine Hero",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 6,
+      "willpower": 3,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Prince",
+        "Deity"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of one of your\ncharacters named Hercules.)",
+          "keyword": "Shift",
+          "keywordValue": "4",
+          "keywordValueNumber": 4,
+          "reminderText": "You may pay 4 ⬡ to play this on top of one of your characters named Hercules."
+        },
+        {
+          "type": "keyword",
+          "fullText": "Resist +2 (Damage dealt to this character is reduced by 2.)",
+          "keyword": "Resist",
+          "keywordValue": "+2",
+          "keywordValueNumber": 2,
+          "reminderText": "Damage dealt to this character is reduced by 2."
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "setCode": "2",
+      "fullName": "Let the Storm Rage On",
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nDeal 2 damage to chosen character. Draw a card.",
+      "name": "Let the Storm Rage On",
+      "type": "Action",
+      "color": "Steel",
+      "cost": 3,
+      "inkwell": false,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 3 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Deal 2 damage to chosen character. Draw a card."
+      ]
+    },
+    {
+      "id": 435,
+      "setCode": "3",
+      "fullName": "Chernabog - Evildoer",
+      "fullText": "THE POWER OF EVIL For each character card in your\ndiscard, you pay 1 ⬡ less to play this character.\nSUMMON THE SPIRITS When you play this character,\nshuffle all character cards from your discard into your\ndeck.",
+      "name": "Chernabog",
+      "version": "Evildoer",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 10,
+      "inkwell": false,
+      "strength": 9,
+      "willpower": 9,
+      "lore": 3,
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "THE POWER OF EVIL",
+          "effect": "For each character card in your discard, you pay 1 ⬡ less to play this character.",
+          "fullText": "THE POWER OF EVIL For each character card in your\ndiscard, you pay 1 ⬡ less to play this character."
+        },
+        {
+          "type": "triggered",
+          "name": "SUMMON THE SPIRITS",
+          "effect": "When you play this character, shuffle all character cards from your discard into your deck.",
+          "fullText": "SUMMON THE SPIRITS When you play this character,\nshuffle all character cards from your discard into your\ndeck."
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "setCode": "3",
+      "fullName": "Dalmatian Puppy - Tail Wagger",
+      "fullText": "WHERE DID THEY ALL COME FROM? You may have\nup to 99 copies of Dalmatian Puppy - Tail Wagger\nin your deck.",
+      "name": "Dalmatian Puppy",
+      "version": "Tail Wagger",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Puppy"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "WHERE DID THEY ALL COME FROM?",
+          "effect": "You may have up to 99 copies of Dalmatian Puppy - Tail Wagger in your deck.",
+          "fullText": "WHERE DID THEY ALL COME FROM? You may have\nup to 99 copies of Dalmatian Puppy - Tail Wagger\nin your deck."
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "setCode": "3",
+      "fullName": "Kida - Protector of Atlantis",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Kida.)\nPERHAPS WE CAN SAVE OUR FUTURE When you play this\ncharacter, all characters get -3 ¤ until the start of your\nnext turn.",
+      "name": "Kida",
+      "version": "Protector of Atlantis",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Kida.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Kida."
+        },
+        {
+          "type": "triggered",
+          "name": "PERHAPS WE CAN SAVE OUR FUTURE",
+          "effect": "When you play this character, all characters get -3 ¤ until the start of your next turn.",
+          "fullText": "PERHAPS WE CAN SAVE OUR FUTURE When you play this\ncharacter, all characters get -3 ¤ until the start of your\nnext turn."
+        }
+      ]
+    },
+    {
+      "id": 470,
+      "setCode": "3",
+      "fullName": "Tiana's Palace - Jazz Restaurant",
+      "fullText": "NIGHT OUT Characters can't be challenged while here.",
+      "name": "Tiana's Palace",
+      "version": "Jazz Restaurant",
+      "type": "Location",
+      "color": "Amber",
+      "cost": 3,
+      "inkwell": false,
+      "willpower": 8,
+      "lore": 1,
+      "moveCost": 2,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "NIGHT OUT",
+          "effect": "Characters can't be challenged while here.",
+          "fullText": "NIGHT OUT Characters can't be challenged while here."
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "setCode": "3",
+      "fullName": "Ursula - Sea Witch",
+      "fullText": "YOU'RE TOO LATE Whenever this character\nquests, chosen opposing character can't ready at\nthe start of their next turn.",
+      "name": "Ursula",
+      "version": "Sea Witch",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "YOU'RE TOO LATE",
+          "effect": "Whenever this character quests, chosen opposing character can't ready at the start of their next turn.",
+          "fullText": "YOU'RE TOO LATE Whenever this character\nquests, chosen opposing character can't ready at\nthe start of their next turn."
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "setCode": "3",
+      "fullName": "The Sorcerer's Tower - Wondrous Workspace",
+      "fullText": "BROOM CLOSET Your characters named Magic Broom may move here for free.\nMAGICAL POWER Characters get +1 ◊ while here.",
+      "name": "The Sorcerer's Tower",
+      "version": "Wondrous Workspace",
+      "type": "Location",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": true,
+      "willpower": 7,
+      "lore": 0,
+      "moveCost": 2,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "BROOM CLOSET",
+          "effect": "Your characters named Magic Broom may move here for free.",
+          "fullText": "BROOM CLOSET Your characters named Magic Broom may move here for free."
+        },
+        {
+          "type": "static",
+          "name": "MAGICAL POWER",
+          "effect": "Characters get +1 ◊ while here.",
+          "fullText": "MAGICAL POWER Characters get +1 ◊ while here."
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "setCode": "3",
+      "fullName": "Friar Tuck - Priest of Nottingham",
+      "fullText": "YOU THIEVING SCOUNDREL When you play this\ncharacter, the player or players with the most\ncards in their hand chooses and discards a card.",
+      "name": "Friar Tuck",
+      "version": "Priest of Nottingham",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "YOU THIEVING SCOUNDREL",
+          "effect": "When you play this character, the player or players with the most cards in their hand chooses and discards a card.",
+          "fullText": "YOU THIEVING SCOUNDREL When you play this\ncharacter, the player or players with the most\ncards in their hand chooses and discards a card."
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "setCode": "3",
+      "fullName": "Lyle Tiberius Rourke - Cunning Mercenary",
+      "fullText": "WELL, NOW YOU KNOW When you play this character,\nchosen opposing character gains Reckless during their\nnext turn. (They can't quest and must challenge if able.)\nTHANKS FOR VOLUNTEERING Whenever one of your\nother characters is banished, each opponent loses 1 lore.",
+      "name": "Lyle Tiberius Rourke",
+      "version": "Cunning Mercenary",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "WELL, NOW YOU KNOW",
+          "effect": "When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
+          "fullText": "WELL, NOW YOU KNOW When you play this character,\nchosen opposing character gains Reckless during their\nnext turn. (They can't quest and must challenge if able.)"
+        },
+        {
+          "type": "triggered",
+          "name": "THANKS FOR VOLUNTEERING",
+          "effect": "Whenever one of your other characters is banished, each opponent loses 1 lore.",
+          "fullText": "THANKS FOR VOLUNTEERING Whenever one of your\nother characters is banished, each opponent loses 1 lore."
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "setCode": "3",
+      "fullName": "Ursula - Deceiver",
+      "fullText": "YOU'LL NEVER EVEN MISS IT When you play this\ncharacter, chosen opponent reveals their hand\nand discards a song card of your choice.",
+      "name": "Ursula",
+      "version": "Deceiver",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "YOU'LL NEVER EVEN MISS IT",
+          "effect": "When you play this character, chosen opponent reveals their hand and discards a song card of your choice.",
+          "fullText": "YOU'LL NEVER EVEN MISS IT When you play this\ncharacter, chosen opponent reveals their hand\nand discards a song card of your choice."
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "setCode": "3",
+      "fullName": "Ursula - Deceiver of All",
+      "fullText": "WHAT A DEAL Whenever this character sings a song,\nyou may play that song again from your discard for\nfree. If you do, put that card on the bottom of your\ndeck instead of into your discard.",
+      "name": "Ursula",
+      "version": "Deceiver of All",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "WHAT A DEAL",
+          "effect": "Whenever this character sings a song, you may play that song again from your discard for free. If you do, put that card on the bottom of your deck instead of into your discard.",
+          "fullText": "WHAT A DEAL Whenever this character sings a song,\nyou may play that song again from your discard for\nfree. If you do, put that card on the bottom of your\ndeck instead of into your discard."
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "setCode": "3",
+      "fullName": "I've Got a Dream",
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this song for free.)\nReady chosen character of yours at a location. They can't quest\nfor the rest of this turn. Gain lore equal to that location's ◊.",
+      "name": "I've Got a Dream",
+      "type": "Action",
+      "color": "Ruby",
+      "cost": 2,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 2 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 2 or more can ⟳ to sing this song for free.)"
+        }
+      ],
+      "effects": [
+        "Ready chosen character of yours at a location. They can't quest\nfor the rest of this turn. Gain lore equal to that location's ◊."
+      ]
+    },
+    {
+      "id": 567,
+      "setCode": "3",
+      "fullName": "Voyage",
+      "fullText": "Move up to 2 characters of yours to the same location\nfor free.",
+      "name": "Voyage",
+      "type": "Action",
+      "color": "Ruby",
+      "cost": 1,
+      "inkwell": true,
+      "effects": [
+        "Move up to 2 characters of yours to the same location\nfor free."
+      ]
+    },
+    {
+      "id": 568,
+      "setCode": "3",
+      "fullName": "Maui's Fish Hook",
+      "fullText": "IT'S MAUI TIME! If you have a character named Maui in play,\nyou may use this item's Shapeshift ability for free.\nSHAPESHIFT ⟳, 2 ⬡ — Choose one:\n• Chosen character gains Evasive until the start of your next\nturn. (Only characters with Evasive can challenge them.)\n• Chosen character gets +3 ¤ this turn.",
+      "name": "Maui's Fish Hook",
+      "type": "Item",
+      "color": "Ruby",
+      "cost": 3,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "IT'S MAUI TIME!",
+          "effect": "If you have a character named Maui in play, you may use this item's Shapeshift ability for free.",
+          "fullText": "IT'S MAUI TIME! If you have a character named Maui in play,\nyou may use this item's Shapeshift ability for free."
+        },
+        {
+          "type": "activated",
+          "name": "SHAPESHIFT",
+          "effect": "Choose one: • Chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.) • Chosen character gets +3 ¤ this turn.",
+          "fullText": "SHAPESHIFT ⟳, 2 ⬡ — Choose one:\n• Chosen character gains Evasive until the start of your next\nturn. (Only characters with Evasive can challenge them.)\n• Chosen character gets +3 ¤ this turn.",
+          "costs": [
+            "⟳",
+            "2 ⬡"
+          ],
+          "costsText": "⟳, 2 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "setCode": "3",
+      "fullName": "Jolly Roger - Hook's Ship",
+      "fullText": "LOOK ALIVE, YOU SWABS! Characters gain Rush while here. (They can challenge\nthe turn they're played.)\nALL HANDS ON DECK! Your Pirate characters may move here for free.",
+      "name": "Jolly Roger",
+      "version": "Hook's Ship",
+      "type": "Location",
+      "color": "Ruby",
+      "cost": 1,
+      "inkwell": false,
+      "willpower": 5,
+      "lore": 0,
+      "moveCost": 2,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "LOOK ALIVE, YOU SWABS!",
+          "effect": "Characters gain Rush while here. (They can challenge the turn they're played.)",
+          "fullText": "LOOK ALIVE, YOU SWABS! Characters gain Rush while here. (They can challenge\nthe turn they're played.)"
+        },
+        {
+          "type": "static",
+          "name": "ALL HANDS ON DECK!",
+          "effect": "Your Pirate characters may move here for free.",
+          "fullText": "ALL HANDS ON DECK! Your Pirate characters may move here for free."
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "setCode": "3",
+      "fullName": "Lucky Dime",
+      "fullText": "NUMBER ONE ⟳, 2 ⬡ — Choose a character of yours\nand gain lore equal to their ◊.",
+      "name": "Lucky Dime",
+      "type": "Item",
+      "color": "Sapphire",
+      "cost": 7,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "NUMBER ONE",
+          "effect": "Choose a character of yours and gain lore equal to their ◊.",
+          "fullText": "NUMBER ONE ⟳, 2 ⬡ — Choose a character of yours\nand gain lore equal to their ◊.",
+          "costs": [
+            "⟳",
+            "2 ⬡"
+          ],
+          "costsText": "⟳, 2 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 606,
+      "setCode": "3",
+      "fullName": "Motunui - Island Paradise",
+      "fullText": "REINCARNATION Whenever a character is banished while here, you may\nput that card into your inkwell facedown and exerted.",
+      "name": "Motunui",
+      "version": "Island Paradise",
+      "type": "Location",
+      "color": "Sapphire",
+      "cost": 2,
+      "inkwell": true,
+      "willpower": 5,
+      "lore": 1,
+      "moveCost": 1,
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "REINCARNATION",
+          "effect": "Whenever a character is banished while here, you may put that card into your inkwell facedown and exerted.",
+          "fullText": "REINCARNATION Whenever a character is banished while here, you may\nput that card into your inkwell facedown and exerted."
+        }
+      ]
+    },
+    {
+      "id": 719,
+      "setCode": "4",
+      "fullName": "Look at This Family",
+      "fullText": "Sing Together 7 (Any number of your or your teammates'\ncharacters with total cost 7 or more may ⟳ to sing this\nsong for free.)\nLook at the top 5 cards of your deck. You may reveal up\nto 2 character cards and put them into your hand. Put the\nrest on the bottom of your deck in any order.",
+      "name": "Look at This Family",
+      "type": "Action",
+      "color": "Amber",
+      "cost": 7,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Sing Together 7 (Any number of your or your teammates'\ncharacters with total cost 7 or more may ⟳ to sing this\nsong for free.)",
+          "keyword": "Sing Together",
+          "keywordValue": "7",
+          "keywordValueNumber": 7,
+          "reminderText": "Any number of your or your teammates' characters with total cost 7 or more may ⟳ to sing this song for free."
+        }
+      ],
+      "effects": [
+        "Look at the top 5 cards of your deck. You may reveal up\nto 2 character cards and put them into your hand. Put the\nrest on the bottom of your deck in any order."
+      ]
+    },
+    {
+      "id": 727,
+      "setCode": "4",
+      "fullName": "Belle - Accomplished Mystic",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Belle.)\nENHANCED HEALING When you play this character, move\nup to 3 damage counters from chosen character to chosen\nopposing character.",
+      "name": "Belle",
+      "version": "Accomplished Mystic",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Princess",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Belle.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Belle."
+        },
+        {
+          "type": "triggered",
+          "name": "ENHANCED HEALING",
+          "effect": "When you play this character, move up to 3 damage counters from chosen character to chosen opposing character.",
+          "fullText": "ENHANCED HEALING When you play this character, move\nup to 3 damage counters from chosen character to chosen\nopposing character."
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "setCode": "4",
+      "fullName": "Bruno Madrigal - Out of the Shadows",
+      "fullText": "IT WAS YOUR VISION When you play this\ncharacter, chosen character gains “When this\ncharacter is banished in a challenge, you may\nreturn this card to your hand” this turn.",
+      "name": "Bruno Madrigal",
+      "version": "Out of the Shadows",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 4,
+      "willpower": 5,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Madrigal"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "IT WAS YOUR VISION",
+          "effect": "When you play this character, chosen character gains “When this character is banished in a challenge, you may return this card to your hand” this turn.",
+          "fullText": "IT WAS YOUR VISION When you play this\ncharacter, chosen character gains “When this\ncharacter is banished in a challenge, you may\nreturn this card to your hand” this turn."
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "setCode": "4",
+      "fullName": "Snuggly Duckling - Disreputable Pub",
+      "fullText": "ROUTINE RUCKUS Whenever a character with 3 ¤ or more challenges\nanother character while here, gain 1 lore. If the challenging character\nhas 6 ¤ or more, gain 3 lore instead.",
+      "name": "Snuggly Duckling",
+      "version": "Disreputable Pub",
+      "type": "Location",
+      "color": "Ruby",
+      "cost": 2,
+      "inkwell": true,
+      "willpower": 9,
+      "lore": 0,
+      "moveCost": 2,
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "ROUTINE RUCKUS",
+          "effect": "Whenever a character with 3 ¤ or more challenges another character while here, gain 1 lore. If the challenging character has 6 ¤ or more, gain 3 lore instead.",
+          "fullText": "ROUTINE RUCKUS Whenever a character with 3 ¤ or more challenges\nanother character while here, gain 1 lore. If the challenging character\nhas 6 ¤ or more, gain 3 lore instead."
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "setCode": "4",
+      "fullName": "Aurora - Lore Guardian",
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of your\ncharacters named Aurora.)\nPRESERVER Opponents can't choose your items for abilities\nor effects.\nROYAL INVENTORY ⟳ one of your items — Look at the top\ncard of your deck and put it on either the top or the bottom\nof your deck.",
+      "name": "Aurora",
+      "version": "Lore Guardian",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of your\ncharacters named Aurora.)",
+          "keyword": "Shift",
+          "keywordValue": "2",
+          "keywordValueNumber": 2,
+          "reminderText": "You may pay 2 ⬡ to play this on top of one of your characters named Aurora."
+        },
+        {
+          "type": "static",
+          "name": "PRESERVER",
+          "effect": "Opponents can't choose your items for abilities or effects.",
+          "fullText": "PRESERVER Opponents can't choose your items for abilities\nor effects."
+        },
+        {
+          "type": "activated",
+          "name": "ROYAL INVENTORY",
+          "effect": "Look at the top card of your deck and put it on either the top or the bottom of your deck.",
+          "fullText": "ROYAL INVENTORY ⟳ one of your items — Look at the top\ncard of your deck and put it on either the top or the bottom\nof your deck.",
+          "costs": [
+            "⟳ one of your items"
+          ],
+          "costsText": "⟳ one of your items"
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "setCode": "4",
+      "fullName": "Glean",
+      "fullText": "Banish chosen item. Its player gains 2 lore.",
+      "name": "Glean",
+      "type": "Action",
+      "color": "Sapphire",
+      "cost": 1,
+      "inkwell": true,
+      "effects": [
+        "Banish chosen item. Its player gains 2 lore."
+      ]
+    },
+    {
+      "id": 895,
+      "setCode": "4",
+      "fullName": "Thebes - The Big Olive",
+      "fullText": "IF YOU CAN MAKE IT HERE... During your turn, whenever a character\nbanishes another character in a challenge while here, gain 2 lore.",
+      "name": "Thebes",
+      "version": "The Big Olive",
+      "type": "Location",
+      "color": "Steel",
+      "cost": 2,
+      "inkwell": true,
+      "willpower": 7,
+      "lore": 0,
+      "moveCost": 1,
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "IF YOU CAN MAKE IT HERE...",
+          "effect": "During your turn, whenever a character banishes another character in a challenge while here, gain 2 lore.",
+          "fullText": "IF YOU CAN MAKE IT HERE... During your turn, whenever a character\nbanishes another character in a challenge while here, gain 2 lore."
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "setCode": "5",
+      "fullName": "Clarabelle - Contented Wallflower",
+      "fullText": "ONE STEP BEHIND When you play this character,\nif an opponent has more cards in their hand than\nyou, you may draw a card.",
+      "name": "Clarabelle",
+      "version": "Contented Wallflower",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "ONE STEP BEHIND",
+          "effect": "When you play this character, if an opponent has more cards in their hand than you, you may draw a card.",
+          "fullText": "ONE STEP BEHIND When you play this character,\nif an opponent has more cards in their hand than\nyou, you may draw a card."
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "setCode": "5",
+      "fullName": "Remember Who You Are",
+      "fullText": "If chosen opponent has more cards in their hand than\nyou, draw cards until you have the same number.",
+      "name": "Remember Who You Are",
+      "type": "Action",
+      "color": "Emerald",
+      "cost": 4,
+      "inkwell": false,
+      "effects": [
+        "If chosen opponent has more cards in their hand than\nyou, draw cards until you have the same number."
+      ]
+    },
+    {
+      "id": 1073,
+      "setCode": "5",
+      "fullName": "Taffyta Muttonfudge - Sour Speedster",
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on\ntop of one of your characters named Taffyta\nMuttonfudge.)\nNEW ROSTER Once per turn, when this character\nmoves to a location, gain 2 lore.",
+      "name": "Taffyta Muttonfudge",
+      "version": "Sour Speedster",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Floodborn",
+        "Ally",
+        "Racer"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 2 (You may pay 2 ⬡ to play this on\ntop of one of your characters named Taffyta\nMuttonfudge.)",
+          "keyword": "Shift",
+          "keywordValue": "2",
+          "keywordValueNumber": 2,
+          "reminderText": "You may pay 2 ⬡ to play this on top of one of your characters named Taffyta Muttonfudge."
+        },
+        {
+          "type": "triggered",
+          "name": "NEW ROSTER",
+          "effect": "Once per turn, when this character moves to a location, gain 2 lore.",
+          "fullText": "NEW ROSTER Once per turn, when this character\nmoves to a location, gain 2 lore."
+        }
+      ]
+    },
+    {
+      "id": 1083,
+      "setCode": "5",
+      "fullName": "Break Free",
+      "fullText": "Deal 1 damage to chosen character of yours. They gain\nRush and get +1 ¤ this turn. (They can challenge the\nturn they're played.)",
+      "name": "Break Free",
+      "type": "Action",
+      "color": "Ruby",
+      "cost": 1,
+      "inkwell": true,
+      "effects": [
+        "Deal 1 damage to chosen character of yours. They gain\nRush and get +1 ¤ this turn. (They can challenge the\nturn they're played.)"
+      ]
+    },
+    {
+      "id": 1160,
+      "setCode": "5",
+      "fullName": "Seven Dwarfs' Mine - Secure Fortress",
+      "fullText": "MOUNTAIN DEFENSE During your turn, the first time you move a\ncharacter here, you may deal 1 damage to chosen character. If the\nmoved character is a Knight, deal 2 damage instead.",
+      "name": "Seven Dwarfs' Mine",
+      "version": "Secure Fortress",
+      "type": "Location",
+      "color": "Steel",
+      "cost": 2,
+      "inkwell": true,
+      "willpower": 6,
+      "lore": 1,
+      "moveCost": 2,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "MOUNTAIN DEFENSE",
+          "effect": "During your turn, the first time you move a character here, you may deal 1 damage to chosen character. If the moved character is a Knight, deal 2 damage instead.",
+          "fullText": "MOUNTAIN DEFENSE During your turn, the first time you move a\ncharacter here, you may deal 1 damage to chosen character. If the\nmoved character is a Knight, deal 2 damage instead."
+        }
+      ]
+    },
+    {
+      "id": 1201,
+      "setCode": "6",
+      "fullName": "Lilo - Escape Artist",
+      "fullText": "NO PLACE I'D RATHER BE At the start of your turn,\nif this card is in your discard, you may play her\nand she enters play exerted.",
+      "name": "Lilo",
+      "version": "Escape Artist",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 2,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "NO PLACE I'D RATHER BE",
+          "effect": "At the start of your turn, if this card is in your discard, you may play her and she enters play exerted.",
+          "fullText": "NO PLACE I'D RATHER BE At the start of your turn,\nif this card is in your discard, you may play her\nand she enters play exerted."
+        }
+      ]
+    },
+    {
+      "id": 1217,
+      "setCode": "6",
+      "fullName": "Dale - Mischievous Ranger",
+      "fullText": "NUTS ABOUT PRANKS When you play this\ncharacter, you may put the top 3 cards of your\ndeck into your discard to give chosen character\n-3 ¤ until the start of your next turn.",
+      "name": "Dale",
+      "version": "Mischievous Ranger",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "NUTS ABOUT PRANKS",
+          "effect": "When you play this character, you may put the top 3 cards of your deck into your discard to give chosen character -3 ¤ until the start of your next turn.",
+          "fullText": "NUTS ABOUT PRANKS When you play this\ncharacter, you may put the top 3 cards of your\ndeck into your discard to give chosen character\n-3 ¤ until the start of your next turn."
+        }
+      ]
+    },
+    {
+      "id": 1219,
+      "setCode": "6",
+      "fullName": "Simba - Pride Protector",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Simba.)\nUNDERSTAND THE BALANCE At the end of your\nturn, if this character is exerted, you may ready\nyour other characters.",
+      "name": "Simba",
+      "version": "Pride Protector",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 4,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Simba.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Simba."
+        },
+        {
+          "type": "triggered",
+          "name": "UNDERSTAND THE BALANCE",
+          "effect": "At the end of your turn, if this character is exerted, you may ready your other characters.",
+          "fullText": "UNDERSTAND THE BALANCE At the end of your\nturn, if this character is exerted, you may ready\nyour other characters."
+        }
+      ]
+    },
+    {
+      "id": 1253,
+      "setCode": "6",
+      "fullName": "Sisu - Uniting Dragon",
+      "fullText": "TRUST BUILDS TRUST Whenever this character\nquests, reveal the top card of your deck. If it's a\nDragon character card, put it into your hand and\nrepeat this effect. Otherwise, put it on either the\ntop or the bottom of your deck.",
+      "name": "Sisu",
+      "version": "Uniting Dragon",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Deity",
+        "Dragon"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "TRUST BUILDS TRUST",
+          "effect": "Whenever this character quests, reveal the top card of your deck. If it's a Dragon character card, put it into your hand and repeat this effect. Otherwise, put it on either the top or the bottom of your deck.",
+          "fullText": "TRUST BUILDS TRUST Whenever this character\nquests, reveal the top card of your deck. If it's a\nDragon character card, put it into your hand and\nrepeat this effect. Otherwise, put it on either the\ntop or the bottom of your deck."
+        }
+      ]
+    },
+    {
+      "id": 1262,
+      "setCode": "6",
+      "fullName": "Lose the Way",
+      "fullText": "Exert chosen character. Then, you may choose and\ndiscard a card. If you do, the exerted character can't\nready at the start of their next turn.",
+      "name": "Lose the Way",
+      "type": "Action",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": true,
+      "effects": [
+        "Exert chosen character. Then, you may choose and\ndiscard a card. If you do, the exerted character can't\nready at the start of their next turn."
+      ]
+    },
+    {
+      "id": 1356,
+      "setCode": "6",
+      "fullName": "Baymax - Armored Companion",
+      "fullText": "THE TREATMENT IS WORKING When you play\nthis character and whenever he quests, you may\nremove up to 2 damage from another chosen\ncharacter of yours. Gain 1 lore for each 1 damage\nremoved this way.",
+      "name": "Baymax",
+      "version": "Armored Companion",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 6,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Robot"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "THE TREATMENT IS WORKING",
+          "effect": "When you play this character and whenever he quests, you may remove up to 2 damage from another chosen character of yours. Gain 1 lore for each 1 damage removed this way.",
+          "fullText": "THE TREATMENT IS WORKING When you play\nthis character and whenever he quests, you may\nremove up to 2 damage from another chosen\ncharacter of yours. Gain 1 lore for each 1 damage\nremoved this way."
+        }
+      ]
+    },
+    {
+      "id": 1362,
+      "setCode": "6",
+      "fullName": "Sail the Azurite Sea",
+      "fullText": "This turn, you may ink an additional card. Draw a card.",
+      "name": "Sail the Azurite Sea",
+      "type": "Action",
+      "color": "Sapphire",
+      "cost": 2,
+      "inkwell": true,
+      "effects": [
+        "This turn, you may ink an additional card. Draw a card."
+      ]
+    },
+    {
+      "id": 1366,
+      "setCode": "6",
+      "fullName": "Microbots",
+      "fullText": "LIMITLESS APPLICATIONS You may have any number of\ncards named Microbots in your deck.\nINSPIRED TECH When you play this item, chosen\ncharacter gets -1 ¤ this turn for each item named\nMicrobots you have in play.",
+      "name": "Microbots",
+      "type": "Item",
+      "color": "Sapphire",
+      "cost": 2,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "LIMITLESS APPLICATIONS",
+          "effect": "You may have any number of cards named Microbots in your deck.",
+          "fullText": "LIMITLESS APPLICATIONS You may have any number of\ncards named Microbots in your deck."
+        },
+        {
+          "type": "triggered",
+          "name": "INSPIRED TECH",
+          "effect": "When you play this item, chosen character gets -1 ¤ this turn for each item named Microbots you have in play.",
+          "fullText": "INSPIRED TECH When you play this item, chosen\ncharacter gets -1 ¤ this turn for each item named\nMicrobots you have in play."
+        }
+      ]
+    },
+    {
+      "id": 1369,
+      "setCode": "6",
+      "fullName": "Institute of Technology - Prestigious University",
+      "fullText": "WELCOME TO THE LAB Inventor characters get +1 ⛉ while here.\nPUSH THE BOUNDARIES At the start of your turn, if you have a character\nhere, gain 1 lore.",
+      "name": "Institute of Technology",
+      "version": "Prestigious University",
+      "type": "Location",
+      "color": "Sapphire",
+      "cost": 1,
+      "inkwell": true,
+      "willpower": 5,
+      "lore": 0,
+      "moveCost": 1,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "WELCOME TO THE LAB",
+          "effect": "Inventor characters get +1 ⛉ while here.",
+          "fullText": "WELCOME TO THE LAB Inventor characters get +1 ⛉ while here."
+        },
+        {
+          "type": "triggered",
+          "name": "PUSH THE BOUNDARIES",
+          "effect": "At the start of your turn, if you have a character here, gain 1 lore.",
+          "fullText": "PUSH THE BOUNDARIES At the start of your turn, if you have a character\nhere, gain 1 lore."
+        }
+      ]
+    },
+    {
+      "id": 1437,
+      "setCode": "7",
+      "fullName": "Bolt - Superdog",
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one\nof your characters named Bolt.)\nMARK OF POWER Whenever you ready this\ncharacter, gain 1 lore for each other undamaged\ncharacter you have in play.\nBOLT STARE ⟳ — Banish chosen Illusion character.",
+      "name": "Bolt",
+      "version": "Superdog",
+      "type": "Character",
+      "color": "Amber-Steel",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one\nof your characters named Bolt.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Bolt."
+        },
+        {
+          "type": "triggered",
+          "name": "MARK OF POWER",
+          "effect": "Whenever you ready this character, gain 1 lore for each other undamaged character you have in play.",
+          "fullText": "MARK OF POWER Whenever you ready this\ncharacter, gain 1 lore for each other undamaged\ncharacter you have in play."
+        },
+        {
+          "type": "activated",
+          "name": "BOLT STARE",
+          "effect": "Banish chosen Illusion character.",
+          "fullText": "BOLT STARE ⟳ — Banish chosen Illusion character.",
+          "costs": [
+            "⟳"
+          ],
+          "costsText": "⟳"
+        }
+      ]
+    },
+    {
+      "id": 1477,
+      "setCode": "7",
+      "fullName": "The Glass Slipper",
+      "fullText": "PERFECT PAIR You may only have 2 copies of The Glass\nSlipper in your deck.\nSEARCH THE KINGDOM Banish this item, ⟳ one of your\nPrince characters — Search your deck for a Princess\ncharacter card and reveal it to all players. Put that card\ninto your hand and shuffle your deck.",
+      "name": "The Glass Slipper",
+      "type": "Item",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "PERFECT PAIR",
+          "effect": "You may only have 2 copies of The Glass Slipper in your deck.",
+          "fullText": "PERFECT PAIR You may only have 2 copies of The Glass\nSlipper in your deck."
+        },
+        {
+          "type": "activated",
+          "name": "SEARCH THE KINGDOM",
+          "effect": "Search your deck for a Princess character card and reveal it to all players. Put that card into your hand and shuffle your deck.",
+          "fullText": "SEARCH THE KINGDOM Banish this item, ⟳ one of your\nPrince characters — Search your deck for a Princess\ncharacter card and reveal it to all players. Put that card\ninto your hand and shuffle your deck.",
+          "costs": [
+            "Banish this item",
+            "⟳ one of your Prince characters"
+          ],
+          "costsText": "Banish this item, ⟳ one of your Prince characters"
+        }
+      ]
+    },
+    {
+      "id": 1483,
+      "setCode": "7",
+      "fullName": "Chernabog - Creature of the Night",
+      "fullText": "MIDNIGHT REVEL When you play this character,\neach opponent chooses and exerts one of their\nready characters. They can't ready at the start of\ntheir next turn.",
+      "name": "Chernabog",
+      "version": "Creature of the Night",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 2,
+      "willpower": 6,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "MIDNIGHT REVEL",
+          "effect": "When you play this character, each opponent chooses and exerts one of their ready characters. They can't ready at the start of their next turn.",
+          "fullText": "MIDNIGHT REVEL When you play this character,\neach opponent chooses and exerts one of their\nready characters. They can't ready at the start of\ntheir next turn."
+        }
+      ]
+    },
+    {
+      "id": 1506,
+      "setCode": "7",
+      "fullName": "Donald Duck - Flustered Sorcerer",
+      "fullText": "OBFUSCATE! Opponents need 25 lore to win the game.",
+      "name": "Donald Duck",
+      "version": "Flustered Sorcerer",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 7,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 6,
+      "lore": 3,
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "OBFUSCATE!",
+          "effect": "Opponents need 25 lore to win the game.",
+          "fullText": "OBFUSCATE! Opponents need 25 lore to win the game."
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "setCode": "7",
+      "fullName": "Belle - Mechanic Extraordinaire",
+      "fullText": "Shift 7\nSALVAGE For each item card in your discard, you pay 1 ⬡\nless to play this character using her Shift ability.\nREPURPOSE Whenever this character quests, you may put\nup to 3 item cards from your discard on the bottom of your\ndeck to gain 1 lore for each item card moved this way.",
+      "name": "Belle",
+      "version": "Mechanic Extraordinaire",
+      "type": "Character",
+      "color": "Ruby-Sapphire",
+      "cost": 9,
+      "inkwell": true,
+      "strength": 7,
+      "willpower": 7,
+      "lore": 3,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Princess",
+        "Inventor"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 7",
+          "keyword": "Shift",
+          "keywordValue": "7",
+          "keywordValueNumber": 7
+        },
+        {
+          "type": "static",
+          "name": "SALVAGE",
+          "effect": "For each item card in your discard, you pay 1 ⬡ less to play this character using her Shift ability.",
+          "fullText": "SALVAGE For each item card in your discard, you pay 1 ⬡\nless to play this character using her Shift ability."
+        },
+        {
+          "type": "triggered",
+          "name": "REPURPOSE",
+          "effect": "Whenever this character quests, you may put up to 3 item cards from your discard on the bottom of your deck to gain 1 lore for each item card moved this way.",
+          "fullText": "REPURPOSE Whenever this character quests, you may put\nup to 3 item cards from your discard on the bottom of your\ndeck to gain 1 lore for each item card moved this way."
+        }
+      ]
+    },
+    {
+      "id": 1569,
+      "setCode": "7",
+      "fullName": "Beast - Frustrated Designer",
+      "fullText": "I'VE HAD IT! ⟳, 2 ⬡, Banish 2 of your items —\nDeal 5 damage to chosen character.",
+      "name": "Beast",
+      "version": "Frustrated Designer",
+      "type": "Character",
+      "color": "Ruby-Sapphire",
+      "cost": 6,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Prince",
+        "Inventor"
+      ],
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "I'VE HAD IT!",
+          "effect": "Deal 5 damage to chosen character.",
+          "fullText": "I'VE HAD IT! ⟳, 2 ⬡, Banish 2 of your items —\nDeal 5 damage to chosen character.",
+          "costs": [
+            "⟳",
+            "2 ⬡",
+            "Banish 2 of your items"
+          ],
+          "costsText": "⟳, 2 ⬡, Banish 2 of your items"
+        }
+      ]
+    },
+    {
+      "id": 1610,
+      "setCode": "7",
+      "fullName": "Water Has Memory",
+      "fullText": "Look at the top 4 cards of chosen player's deck.\nPut one on the top of their deck and the rest on the\nbottom of their deck in any order.",
+      "name": "Water Has Memory",
+      "type": "Action",
+      "color": "Sapphire",
+      "cost": 1,
+      "inkwell": false,
+      "effects": [
+        "Look at the top 4 cards of chosen player's deck.\nPut one on the top of their deck and the rest on the\nbottom of their deck in any order."
+      ]
+    },
+    {
+      "id": 1634,
+      "setCode": "7",
+      "fullName": "Restoring Atlantis",
+      "fullText": "Your characters can't be challenged until the start of\nyour next turn.",
+      "name": "Restoring Atlantis",
+      "type": "Action",
+      "color": "Steel",
+      "cost": 5,
+      "inkwell": false,
+      "effects": [
+        "Your characters can't be challenged until the start of\nyour next turn."
+      ]
+    },
+    {
+      "id": 1701,
+      "setCode": "8",
+      "fullName": "Donald Duck - Coin Collector",
+      "fullText": "HERE, PIGGY, PIGGY For each item named The Nephews'\nPiggy Bank you have in play, you pay 2 ⬡ less to play\nthis character.\nMONEY EVERYWHERE When you play this character,\nyour other characters gain “⟳ — Draw a card” this turn.",
+      "name": "Donald Duck",
+      "version": "Coin Collector",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 8,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 8,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "HERE, PIGGY, PIGGY",
+          "effect": "For each item named The Nephews' Piggy Bank you have in play, you pay 2 ⬡ less to play this character.",
+          "fullText": "HERE, PIGGY, PIGGY For each item named The Nephews'\nPiggy Bank you have in play, you pay 2 ⬡ less to play\nthis character."
+        },
+        {
+          "type": "triggered",
+          "name": "MONEY EVERYWHERE",
+          "effect": "When you play this character, your other characters gain “⟳ — Draw a card” this turn.",
+          "fullText": "MONEY EVERYWHERE When you play this character,\nyour other characters gain “⟳ — Draw a card” this turn."
+        }
+      ]
+    },
+    {
+      "id": 1703,
+      "setCode": "8",
+      "fullName": "Candy Drift",
+      "fullText": "Draw a card. Chosen character of yours gets +5 ¤ this\nturn. At the end of your turn, banish them.",
+      "name": "Candy Drift",
+      "type": "Action",
+      "color": "Amber-Ruby",
+      "cost": 2,
+      "inkwell": true,
+      "effects": [
+        "Draw a card. Chosen character of yours gets +5 ¤ this\nturn. At the end of your turn, banish them."
+      ]
+    },
+    {
+      "id": 1738,
+      "setCode": "8",
+      "fullName": "Jafar - High Sultan of Lorcana",
+      "fullText": "DARK POWER Whenever this character quests,\nyou may draw a card, then choose and discard a\ncard. If an Illusion character card is discarded this\nway, you may play that character for free.",
+      "name": "Jafar",
+      "version": "High Sultan of Lorcana",
+      "type": "Character",
+      "color": "Amethyst-Steel",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 4,
+      "willpower": 4,
+      "lore": 3,
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "King",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "DARK POWER",
+          "effect": "Whenever this character quests, you may draw a card, then choose and discard a card. If an Illusion character card is discarded this way, you may play that character for free.",
+          "fullText": "DARK POWER Whenever this character quests,\nyou may draw a card, then choose and discard a\ncard. If an Illusion character card is discarded this\nway, you may play that character for free."
+        }
+      ]
+    },
+    {
+      "id": 1762,
+      "setCode": "8",
+      "fullName": "Fred - Giant-Sized",
+      "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one of\nyour characters named Fred.)\nI LIKE WHERE THIS IS HEADING Whenever this character\nquests, reveal cards from the top of your deck until you\nreveal a Floodborn character card. Put that card into\nyour hand and shuffle the rest into your deck.",
+      "name": "Fred",
+      "version": "Giant-Sized",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 6,
+      "lore": 3,
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one of\nyour characters named Fred.)",
+          "keyword": "Shift",
+          "keywordValue": "5",
+          "keywordValueNumber": 5,
+          "reminderText": "You may pay 5 ⬡ to play this on top of one of your characters named Fred."
+        },
+        {
+          "type": "triggered",
+          "name": "I LIKE WHERE THIS IS HEADING",
+          "effect": "Whenever this character quests, reveal cards from the top of your deck until you reveal a Floodborn character card. Put that card into your hand and shuffle the rest into your deck.",
+          "fullText": "I LIKE WHERE THIS IS HEADING Whenever this character\nquests, reveal cards from the top of your deck until you\nreveal a Floodborn character card. Put that card into\nyour hand and shuffle the rest into your deck."
+        }
+      ]
+    },
+    {
+      "id": 1780,
+      "setCode": "8",
+      "fullName": "Wrong Lever!",
+      "fullText": "Choose one:\n• Return chosen character to their player's hand.\n• Put a card named Pull the Lever! from your discard on\nthe bottom of your deck to put chosen character on\nthe bottom of their player's deck.",
+      "name": "Wrong Lever!",
+      "type": "Action",
+      "color": "Emerald",
+      "cost": 3,
+      "inkwell": true,
+      "effects": [
+        "Choose one:\n• Return chosen character to their player's hand.\n• Put a card named Pull the Lever! from your discard on\nthe bottom of your deck to put chosen character on\nthe bottom of their player's deck."
+      ]
+    },
+    {
+      "id": 1832,
+      "setCode": "8",
+      "fullName": "Arthur - Determined Squire",
+      "fullText": "NO MORE BOOKS Skip your turn's Draw step.",
+      "name": "Arthur",
+      "version": "Determined Squire",
+      "type": "Character",
+      "color": "Sapphire-Steel",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 6,
+      "willpower": 6,
+      "lore": 3,
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "NO MORE BOOKS",
+          "effect": "Skip your turn's Draw step.",
+          "fullText": "NO MORE BOOKS Skip your turn's Draw step."
+        }
+      ]
+    },
+    {
+      "id": 1937,
+      "setCode": "9",
+      "fullName": "The Queen - Conceited Ruler",
+      "fullText": "Support (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)\nROYAL SUMMONS At the start of your turn, you may\nchoose and discard a Princess or Queen character\ncard to return a character card from your discard to\nyour hand.",
+      "name": "The Queen",
+      "version": "Conceited Ruler",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Support (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)",
+          "keyword": "Support",
+          "reminderText": "Whenever this character quests, you may add their ¤ to another chosen character's ¤ this turn."
+        },
+        {
+          "type": "triggered",
+          "name": "ROYAL SUMMONS",
+          "effect": "At the start of your turn, you may choose and discard a Princess or Queen character card to return a character card from your discard to your hand.",
+          "fullText": "ROYAL SUMMONS At the start of your turn, you may\nchoose and discard a Princess or Queen character\ncard to return a character card from your discard to\nyour hand."
+        }
+      ]
+    },
+    {
+      "id": 2000,
+      "setCode": "9",
+      "fullName": "The Magic Feather",
+      "fullText": "NOW YOU CAN FLY! When you play this item, choose\na character of yours. While this item is in play, that\ncharacter gains Evasive. (Only characters with Evasive\ncan challenge them.)\nGROUNDED 3 ⬡ — Return this item to your hand.",
+      "name": "The Magic Feather",
+      "type": "Item",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "NOW YOU CAN FLY!",
+          "effect": "When you play this item, choose a character of yours. While this item is in play, that character gains Evasive. (Only characters with Evasive can challenge them.)",
+          "fullText": "NOW YOU CAN FLY! When you play this item, choose\na character of yours. While this item is in play, that\ncharacter gains Evasive. (Only characters with Evasive\ncan challenge them.)"
+        },
+        {
+          "type": "activated",
+          "name": "GROUNDED",
+          "effect": "Return this item to your hand.",
+          "fullText": "GROUNDED 3 ⬡ — Return this item to your hand.",
+          "costs": [
+            "3 ⬡"
+          ],
+          "costsText": "3 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 2192,
+      "setCode": "10",
+      "fullName": "Rapunzel - Ready for Adventure",
+      "fullText": "Support (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)\nACT OF KINDNESS Whenever one of your characters is\nchosen for Support, until the start of your next turn,\nthe next time they would be dealt damage they take no\ndamage instead.",
+      "name": "Rapunzel",
+      "version": "Ready for Adventure",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Support (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)",
+          "keyword": "Support",
+          "reminderText": "Whenever this character quests, you may add their ¤ to another chosen character's ¤ this turn."
+        },
+        {
+          "type": "triggered",
+          "name": "ACT OF KINDNESS",
+          "effect": "Whenever one of your characters is chosen for Support, until the start of your next turn, the next time they would be dealt damage they take no damage instead.",
+          "fullText": "ACT OF KINDNESS Whenever one of your characters is\nchosen for Support, until the start of your next turn,\nthe next time they would be dealt damage they take no\ndamage instead."
+        }
+      ]
+    },
+    {
+      "id": 2207,
+      "setCode": "10",
+      "fullName": "Scrooge McDuck - Cavern Prospector",
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Scrooge McDuck.)\nSPECULATION Whenever you play a character or\nlocation with Boost, you may put the top card of\nyour deck facedown under them.",
+      "name": "Scrooge McDuck",
+      "version": "Cavern Prospector",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 7,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Scrooge McDuck.)",
+          "keyword": "Shift",
+          "keywordValue": "4",
+          "keywordValueNumber": 4,
+          "reminderText": "You may pay 4 ⬡ to play this on top of one of your characters named Scrooge McDuck."
+        },
+        {
+          "type": "triggered",
+          "name": "SPECULATION",
+          "effect": "Whenever you play a character or location with Boost, you may put the top card of your deck facedown under them.",
+          "fullText": "SPECULATION Whenever you play a character or\nlocation with Boost, you may put the top card of\nyour deck facedown under them."
+        }
+      ]
+    },
+    {
+      "id": 2209,
+      "setCode": "10",
+      "fullName": "Simba - King in the Making",
+      "fullText": "Boost 3 ⬡ (Once during your turn, you may pay 3 ⬡ to put\nthe top card of your deck facedown under this character.)\nTIMELY ALLIANCE Whenever you put a card under this\ncharacter, you may reveal the top card of your deck. If it's\na character card, you may play that character for free and\nthey enter play exerted. Otherwise, put it on the bottom of\nyour deck.",
+      "name": "Simba",
+      "version": "King in the Making",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 3,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince",
+        "Whisper"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Boost 3 ⬡ (Once during your turn, you may pay 3 ⬡ to put\nthe top card of your deck facedown under this character.)",
+          "keyword": "Boost",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "Once during your turn, you may pay 3 ⬡ to put the top card of your deck facedown under this character."
+        },
+        {
+          "type": "triggered",
+          "name": "TIMELY ALLIANCE",
+          "effect": "Whenever you put a card under this character, you may reveal the top card of your deck. If it's a character card, you may play that character for free and they enter play exerted. Otherwise, put it on the bottom of your deck.",
+          "fullText": "TIMELY ALLIANCE Whenever you put a card under this\ncharacter, you may reveal the top card of your deck. If it's\na character card, you may play that character for free and\nthey enter play exerted. Otherwise, put it on the bottom of\nyour deck."
+        }
+      ]
+    },
+    {
+      "id": 2215,
+      "setCode": "10",
+      "fullName": "Search for Clues",
+      "fullText": "The player or players with the most cards in their\nhands choose and discard 2 cards. If you have a\nDetective character in play, gain 1 lore.",
+      "name": "Search for Clues",
+      "type": "Action",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "effects": [
+        "The player or players with the most cards in their\nhands choose and discard 2 cards. If you have a\nDetective character in play, gain 1 lore."
+      ]
+    },
+    {
+      "id": 2221,
+      "setCode": "10",
+      "fullName": "The Black Cauldron",
+      "fullText": "THE CAULDRON CALLS ⟳, 1 ⬡ — Put a character card\nfrom your discard under this item faceup.\nRISE AND JOIN ME! ⟳, 1 ⬡ — This turn, you may play\ncharacters from under this item.",
+      "name": "The Black Cauldron",
+      "type": "Item",
+      "color": "Amber",
+      "cost": 3,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "THE CAULDRON CALLS",
+          "effect": "Put a character card from your discard under this item faceup.",
+          "fullText": "THE CAULDRON CALLS ⟳, 1 ⬡ — Put a character card\nfrom your discard under this item faceup.",
+          "costs": [
+            "⟳",
+            "1 ⬡"
+          ],
+          "costsText": "⟳, 1 ⬡"
+        },
+        {
+          "type": "activated",
+          "name": "RISE AND JOIN ME!",
+          "effect": "This turn, you may play characters from under this item.",
+          "fullText": "RISE AND JOIN ME! ⟳, 1 ⬡ — This turn, you may play\ncharacters from under this item.",
+          "costs": [
+            "⟳",
+            "1 ⬡"
+          ],
+          "costsText": "⟳, 1 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 2236,
+      "setCode": "10",
+      "fullName": "Duckworth - Ghost Butler",
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)\nFINAL ACT During your turn, when this character\nis banished, you may put the top card of your\ndeck facedown under one of your characters or\nlocations with Boost.",
+      "name": "Duckworth",
+      "version": "Ghost Butler",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 1,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Ghost"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Rush (This character can challenge the turn\nthey're played.)",
+          "keyword": "Rush",
+          "reminderText": "This character can challenge the turn they're played."
+        },
+        {
+          "type": "triggered",
+          "name": "FINAL ACT",
+          "effect": "During your turn, when this character is banished, you may put the top card of your deck facedown under one of your characters or locations with Boost.",
+          "fullText": "FINAL ACT During your turn, when this character\nis banished, you may put the top card of your\ndeck facedown under one of your characters or\nlocations with Boost."
+        }
+      ]
+    },
+    {
+      "id": 2252,
+      "setCode": "10",
+      "fullName": "Swooping Strike",
+      "fullText": "Each opponent chooses and exerts one of their ready\ncharacters.",
+      "name": "Swooping Strike",
+      "type": "Action",
+      "color": "Amethyst",
+      "cost": 1,
+      "inkwell": true,
+      "effects": [
+        "Each opponent chooses and exerts one of their ready\ncharacters."
+      ]
+    },
+    {
+      "id": 2296,
+      "setCode": "10",
+      "fullName": "Raksha - Fearless Mother",
+      "fullText": "ON PATROL Once during your turn, you may pay\n1 ⬡ less to move this character to a location.",
+      "name": "Raksha",
+      "version": "Fearless Mother",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 3,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "ON PATROL",
+          "effect": "Once during your turn, you may pay 1 ⬡ less to move this character to a location.",
+          "fullText": "ON PATROL Once during your turn, you may pay\n1 ⬡ less to move this character to a location."
+        }
+      ]
+    },
+    {
+      "id": 2318,
+      "setCode": "10",
+      "fullName": "Next Stop, Olympus",
+      "fullText": "If you have a character with 5 ¤ or more in play, you\npay 2 ⬡ less to play this action.\nReady chosen character. They can't quest for the rest\nof this turn. The next time they challenge another\ncharacter this turn, gain 1 lore.",
+      "name": "Next Stop, Olympus",
+      "type": "Action",
+      "color": "Ruby",
+      "cost": 2,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "If you have a character with 5 ¤ or more in play, you pay 2 ⬡ less to play this action.",
+          "fullText": "If you have a character with 5 ¤ or more in play, you\npay 2 ⬡ less to play this action."
+        }
+      ],
+      "effects": [
+        "Ready chosen character. They can't quest for the rest\nof this turn. The next time they challenge another\ncharacter this turn, gain 1 lore."
+      ]
+    },
+    {
+      "id": 2343,
+      "setCode": "10",
+      "fullName": "Daisy Duck - Paranormal Investigator",
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of one\nof your characters named Daisy Duck.)\nSupport (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)\nSTRANGE HAPPENINGS While this character is exerted,\ncards enter opponents' inkwells exerted.",
+      "name": "Daisy Duck",
+      "version": "Paranormal Investigator",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 6,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Detective"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of one\nof your characters named Daisy Duck.)",
+          "keyword": "Shift",
+          "keywordValue": "4",
+          "keywordValueNumber": 4,
+          "reminderText": "You may pay 4 ⬡ to play this on top of one of your characters named Daisy Duck."
+        },
+        {
+          "type": "keyword",
+          "fullText": "Support (Whenever this character quests, you may add\ntheir ¤ to another chosen character's ¤ this turn.)",
+          "keyword": "Support",
+          "reminderText": "Whenever this character quests, you may add their ¤ to another chosen character's ¤ this turn."
+        },
+        {
+          "type": "static",
+          "name": "STRANGE HAPPENINGS",
+          "effect": "While this character is exerted, cards enter opponents' inkwells exerted.",
+          "fullText": "STRANGE HAPPENINGS While this character is exerted,\ncards enter opponents' inkwells exerted."
+        }
+      ]
+    },
+    {
+      "id": 2362,
+      "setCode": "10",
+      "fullName": "Goliath - Clan Leader",
+      "fullText": "DUSK TO DAWN At the end of each player's turn, if they\nhave more than 2 cards in their hand, they choose and\ndiscard cards until they have 2. If they have fewer than 2\ncards in their hand, they draw until they have 2.\nSTONE BY DAY If you have 3 or more cards in your hand,\nthis character can't ready.",
+      "name": "Goliath",
+      "version": "Clan Leader",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 6,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Gargoyle"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "DUSK TO DAWN",
+          "effect": "At the end of each player's turn, if they have more than 2 cards in their hand, they choose and discard cards until they have 2. If they have fewer than 2 cards in their hand, they draw until they have 2.",
+          "fullText": "DUSK TO DAWN At the end of each player's turn, if they\nhave more than 2 cards in their hand, they choose and\ndiscard cards until they have 2. If they have fewer than 2\ncards in their hand, they draw until they have 2."
+        },
+        {
+          "type": "static",
+          "name": "STONE BY DAY",
+          "effect": "If you have 3 or more cards in your hand, this character can't ready.",
+          "fullText": "STONE BY DAY If you have 3 or more cards in your hand,\nthis character can't ready."
+        }
+      ]
+    },
+    {
+      "id": 2376,
+      "setCode": "10",
+      "fullName": "Nick Wilde - Persistent Investigator",
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of\none of your characters named Nick Wilde.)\nCASE CLOSED During your turn, whenever one\nof your Detective characters banishes another\ncharacter in a challenge, draw a card.",
+      "name": "Nick Wilde",
+      "version": "Persistent Investigator",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Floodborn",
+        "Ally",
+        "Detective"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of\none of your characters named Nick Wilde.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Nick Wilde."
+        },
+        {
+          "type": "triggered",
+          "name": "CASE CLOSED",
+          "effect": "During your turn, whenever one of your Detective characters banishes another character in a challenge, draw a card.",
+          "fullText": "CASE CLOSED During your turn, whenever one\nof your Detective characters banishes another\ncharacter in a challenge, draw a card."
+        }
+      ]
+    },
+    {
+      "id": 2378,
+      "setCode": "10",
+      "fullName": "Prince Charming - Protector of the Realm",
+      "fullText": "Bodyguard (This character may enter play\nexerted. An opposing character who challenges\none of your characters must choose one with\nBodyguard if able.)\nPROTECTIVE PRESENCE Each turn, only one\ncharacter can challenge.",
+      "name": "Prince Charming",
+      "version": "Protector of the Realm",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 10,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Bodyguard (This character may enter play\nexerted. An opposing character who challenges\none of your characters must choose one with\nBodyguard if able.)",
+          "keyword": "Bodyguard",
+          "reminderText": "This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able."
+        },
+        {
+          "type": "static",
+          "name": "PROTECTIVE PRESENCE",
+          "effect": "Each turn, only one character can challenge.",
+          "fullText": "PROTECTIVE PRESENCE Each turn, only one\ncharacter can challenge."
+        }
+      ]
+    },
+    {
+      "id": 2381,
+      "setCode": "10",
+      "fullName": "Fairy Godmother - Magical Benefactor",
+      "fullText": "Boost 3 ⬡ (Once during your turn, you may pay 3 ⬡ to put\nthe top card of your deck facedown under this character.)\nSTUNNING TRANSFORMATION Whenever you put a card\nunder this character, you may banish chosen opposing\ncharacter. If you do, their player may reveal the top card\nof their deck. If that card is a character or item card, they\nmay play it for free. Otherwise, they put it on the bottom of\ntheir deck.",
+      "name": "Fairy Godmother",
+      "version": "Magical Benefactor",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 5,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Fairy",
+        "Sorcerer",
+        "Whisper"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Boost 3 ⬡ (Once during your turn, you may pay 3 ⬡ to put\nthe top card of your deck facedown under this character.)",
+          "keyword": "Boost",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "Once during your turn, you may pay 3 ⬡ to put the top card of your deck facedown under this character."
+        },
+        {
+          "type": "triggered",
+          "name": "STUNNING TRANSFORMATION",
+          "effect": "Whenever you put a card under this character, you may banish chosen opposing character. If you do, their player may reveal the top card of their deck. If that card is a character or item card, they may play it for free. Otherwise, they put it on the bottom of their deck.",
+          "fullText": "STUNNING TRANSFORMATION Whenever you put a card\nunder this character, you may banish chosen opposing\ncharacter. If you do, their player may reveal the top card\nof their deck. If that card is a character or item card, they\nmay play it for free. Otherwise, they put it on the bottom of\ntheir deck."
+        }
+      ]
+    },
+    {
+      "id": 2507,
+      "setCode": "11",
+      "fullName": "Taran - Magically Armed",
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)\nWEAKEN THE CAULDRON When you play this\ncharacter, put up to 2 cards from chosen player's\ndiscard on the bottom of their deck in any order.",
+      "name": "Taran",
+      "version": "Magically Armed",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Rush (This character can challenge the turn\nthey're played.)",
+          "keyword": "Rush",
+          "reminderText": "This character can challenge the turn they're played."
+        },
+        {
+          "type": "triggered",
+          "name": "WEAKEN THE CAULDRON",
+          "effect": "When you play this character, put up to 2 cards from chosen player's discard on the bottom of their deck in any order.",
+          "fullText": "WEAKEN THE CAULDRON When you play this\ncharacter, put up to 2 cards from chosen player's\ndiscard on the bottom of their deck in any order."
+        }
+      ]
+    },
+    {
+      "id": 2516,
+      "setCode": "11",
+      "fullName": "Marshmallow - Cranky Climber",
+      "fullText": "ICY BLAST Whenever this character quests,\neach opponent can't ready more than 1 of their\ncharacters at the start of their next turn.",
+      "name": "Marshmallow",
+      "version": "Cranky Climber",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "ICY BLAST",
+          "effect": "Whenever this character quests, each opponent can't ready more than 1 of their characters at the start of their next turn.",
+          "fullText": "ICY BLAST Whenever this character quests,\neach opponent can't ready more than 1 of their\ncharacters at the start of their next turn."
+        }
+      ]
+    },
+    {
+      "id": 2540,
+      "setCode": "11",
+      "fullName": "Chernabog - Unnatural Force",
+      "fullText": "DARK DANCE When you play this character, you\nmay shuffle chosen opposing character into their\nplayer's deck. If you do, that player may play a\ncharacter from their discard for free.",
+      "name": "Chernabog",
+      "version": "Unnatural Force",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 5,
+      "inkwell": false,
+      "strength": 5,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "DARK DANCE",
+          "effect": "When you play this character, you may shuffle chosen opposing character into their player's deck. If you do, that player may play a character from their discard for free.",
+          "fullText": "DARK DANCE When you play this character, you\nmay shuffle chosen opposing character into their\nplayer's deck. If you do, that player may play a\ncharacter from their discard for free."
+        }
+      ]
+    },
+    {
+      "id": 2575,
+      "setCode": "11",
+      "fullName": "Elisa Maza - Transformed Gargoyle",
+      "fullText": "FOREVER STRONG Your characters' ¤ can't be\nreduced below their printed value.\nSTONE BY DAY If you have 3 or more cards in your\nhand, this character can't ready.",
+      "name": "Elisa Maza",
+      "version": "Transformed Gargoyle",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 4,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Gargoyle",
+        "Detective"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "FOREVER STRONG",
+          "effect": "Your characters' ¤ can't be reduced below their printed value.",
+          "fullText": "FOREVER STRONG Your characters' ¤ can't be\nreduced below their printed value."
+        },
+        {
+          "type": "static",
+          "name": "STONE BY DAY",
+          "effect": "If you have 3 or more cards in your hand, this character can't ready.",
+          "fullText": "STONE BY DAY If you have 3 or more cards in your\nhand, this character can't ready."
+        }
+      ]
+    },
+    {
+      "id": 2650,
+      "setCode": "11",
+      "fullName": "Angela - Night Warrior",
+      "fullText": "SHADOW POWER When you play this character,\nyou may give chosen character Challenger +2 and\nResist +2 until the start of your next turn. (They get\n+2 ¤ while challenging. Damage dealt to them is\nreduced by 2.)\nETERNAL NIGHT Your Gargoyle characters lose the\nStone by Day ability.",
+      "name": "Angela",
+      "version": "Night Warrior",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Gargoyle"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "SHADOW POWER",
+          "effect": "When you play this character, you may give chosen character Challenger +2 and Resist +2 until the start of your next turn. (They get +2 ¤ while challenging. Damage dealt to them is reduced by 2.)",
+          "fullText": "SHADOW POWER When you play this character,\nyou may give chosen character Challenger +2 and\nResist +2 until the start of your next turn. (They get\n+2 ¤ while challenging. Damage dealt to them is\nreduced by 2.)"
+        },
+        {
+          "type": "static",
+          "name": "ETERNAL NIGHT",
+          "effect": "Your Gargoyle characters lose the Stone by Day ability.",
+          "fullText": "ETERNAL NIGHT Your Gargoyle characters lose the\nStone by Day ability."
+        }
+      ]
+    },
+    {
+      "id": 2737,
+      "setCode": "12",
+      "fullName": "Dale - Ready for His Shot",
+      "fullText": "SPIKE SUIT During challenges, your characters\ndeal damage with their ⛉ instead of their ¤.",
+      "name": "Dale",
+      "version": "Ready for His Shot",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": true,
+      "strength": 0,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "SPIKE SUIT",
+          "effect": "During challenges, your characters deal damage with their ⛉ instead of their ¤.",
+          "fullText": "SPIKE SUIT During challenges, your characters\ndeal damage with their ⛉ instead of their ¤."
+        }
+      ]
+    },
+    {
+      "id": 2797,
+      "setCode": "12",
+      "fullName": "Milo Thatch - Getting His Hands Dirty",
+      "fullText": "Ward\nSCHOLAR'S GAMBIT When you play this character,\nyou may choose and discard a card to return chosen\ncharacter to their player's hand.\nPRACTICAL KNOWLEDGE At the end of your turn, if\n2 or more cards were put into your discard this turn,\ndraw a card.",
+      "name": "Milo Thatch",
+      "version": "Getting His Hands Dirty",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 3,
+      "subtypes": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Ward",
+          "keyword": "Ward"
+        },
+        {
+          "type": "triggered",
+          "name": "SCHOLAR'S GAMBIT",
+          "effect": "When you play this character, you may choose and discard a card to return chosen character to their player's hand.",
+          "fullText": "SCHOLAR'S GAMBIT When you play this character,\nyou may choose and discard a card to return chosen\ncharacter to their player's hand."
+        },
+        {
+          "type": "triggered",
+          "name": "PRACTICAL KNOWLEDGE",
+          "effect": "At the end of your turn, if 2 or more cards were put into your discard this turn, draw a card.",
+          "fullText": "PRACTICAL KNOWLEDGE At the end of your turn, if\n2 or more cards were put into your discard this turn,\ndraw a card."
+        }
+      ]
+    },
+    {
+      "id": 2801,
+      "setCode": "12",
+      "fullName": "Elinor - Renowned Diplomat",
+      "fullText": "COORDINATED EFFORTS At the end of your turn,\nif you have 3 or more exerted characters in play,\ndeal 1 damage to chosen opposing character, gain\n1 lore, and draw a card.",
+      "name": "Elinor",
+      "version": "Renowned Diplomat",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 3,
+      "willpower": 4,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "Queen"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "COORDINATED EFFORTS",
+          "effect": "At the end of your turn, if you have 3 or more exerted characters in play, deal 1 damage to chosen opposing character, gain 1 lore, and draw a card.",
+          "fullText": "COORDINATED EFFORTS At the end of your turn,\nif you have 3 or more exerted characters in play,\ndeal 1 damage to chosen opposing character, gain\n1 lore, and draw a card."
+        }
+      ]
+    },
+    {
+      "id": 2830,
+      "setCode": "12",
+      "fullName": "Daisy Duck - Trendy Traveler",
+      "fullText": "BREAK IS OVER Whenever this character quests,\nif you played a character this turn, you may ready\nanother chosen character. If you do, they can't\nquest for the rest of this turn.",
+      "name": "Daisy Duck",
+      "version": "Trendy Traveler",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "BREAK IS OVER",
+          "effect": "Whenever this character quests, if you played a character this turn, you may ready another chosen character. If you do, they can't quest for the rest of this turn.",
+          "fullText": "BREAK IS OVER Whenever this character quests,\nif you played a character this turn, you may ready\nanother chosen character. If you do, they can't\nquest for the rest of this turn."
+        }
+      ]
+    },
+    {
+      "id": 2914,
+      "setCode": "12",
+      "fullName": "Touch the Sky",
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nMove a character of yours to a location for free.\nThen, draw cards equal to that location's ◊.",
+      "name": "Touch the Sky",
+      "type": "Action",
+      "color": "Steel",
+      "cost": 2,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "effect": "A character with cost 2 or more can ⟳ to sing this song for free.",
+          "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)"
+        }
+      ],
+      "effects": [
+        "Move a character of yours to a location for free.\nThen, draw cards equal to that location's ◊."
+      ]
+    },
+    {
+      "id": 2972,
+      "setCode": "13",
+      "fullName": "Woody - Helping a Friend",
+      "fullText": "HANG ON! When you play this character, choose\none of the following. If you have another Toy\ncharacter in play, choose both instead:\n• You may return a character card with cost 2 or less\nfrom your discard to your hand.\n• You may play a character with cost 2 or less for free.",
+      "name": "Woody",
+      "version": "Helping a Friend",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 2,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Toy"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "HANG ON!",
+          "effect": "When you play this character, choose one of the following. If you have another Toy character in play, choose both instead: • You may return a character card with cost 2 or less from your discard to your hand. • You may play a character with cost 2 or less for free.",
+          "fullText": "HANG ON! When you play this character, choose\none of the following. If you have another Toy\ncharacter in play, choose both instead:\n• You may return a character card with cost 2 or less\nfrom your discard to your hand.\n• You may play a character with cost 2 or less for free."
+        }
+      ]
+    },
+    {
+      "id": 2983,
+      "setCode": "13",
+      "fullName": "Pocahontas - Guiding the Tribe",
+      "fullText": "STAY CLOSE When you play this character, you\nmay play a character with cost 1 for free.",
+      "name": "Pocahontas",
+      "version": "Guiding the Tribe",
+      "type": "Character",
+      "color": "Amber",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "STAY CLOSE",
+          "effect": "When you play this character, you may play a character with cost 1 for free.",
+          "fullText": "STAY CLOSE When you play this character, you\nmay play a character with cost 1 for free."
+        }
+      ]
+    },
+    {
+      "id": 3000,
+      "setCode": "13",
+      "fullName": "Sulley & Boo - Scare Buddies",
+      "fullText": "Combo Shift 4 ⬡ (You may pay 4 ⬡ to play this on top\nof one of your characters named Sulley, one named Boo,\nor one of each.)\nTHE POWER OF FRIENDSHIP When this character is\nbanished, if any of the cards that were under them are\ncharacter cards, you may play those characters from\nyour discard for free.",
+      "name": "Sulley & Boo",
+      "names": [
+        "Boo",
+        "Sulley"
+      ],
+      "version": "Scare Buddies",
+      "type": "Character",
+      "color": "Amber-Ruby",
+      "cost": 6,
+      "inkwell": true,
+      "strength": 6,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Team",
+        "Hero",
+        "Monster"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Combo Shift 4 ⬡ (You may pay 4 ⬡ to play this on top\nof one of your characters named Sulley, one named Boo,\nor one of each.)",
+          "keyword": "Combo Shift",
+          "keywordValue": "4",
+          "keywordValueNumber": 4,
+          "reminderText": "You may pay 4 ⬡ to play this on top of one of your characters named Sulley, one named Boo, or one of each."
+        },
+        {
+          "type": "triggered",
+          "name": "THE POWER OF FRIENDSHIP",
+          "effect": "When this character is banished, if any of the cards that were under them are character cards, you may play those characters from your discard for free.",
+          "fullText": "THE POWER OF FRIENDSHIP When this character is\nbanished, if any of the cards that were under them are\ncharacter cards, you may play those characters from\nyour discard for free."
+        }
+      ]
+    },
+    {
+      "id": 3004,
+      "setCode": "13",
+      "fullName": "I'm Never Not by Your Side",
+      "fullText": "Sing Together 5 (Any number of your or your teammates'\ncharacters with total cost 5 or more may ⟳ to sing this\nsong for free.)\nRemove up to 4 damage total from any number of your\ncharacters. You gain 1 lore for each 1 damage removed\nthis way.",
+      "name": "I'm Never Not by Your Side",
+      "type": "Action",
+      "color": "Amber",
+      "cost": 5,
+      "inkwell": true,
+      "subtypes": [
+        "Song"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Sing Together 5 (Any number of your or your teammates'\ncharacters with total cost 5 or more may ⟳ to sing this\nsong for free.)",
+          "keyword": "Sing Together",
+          "keywordValue": "5",
+          "keywordValueNumber": 5,
+          "reminderText": "Any number of your or your teammates' characters with total cost 5 or more may ⟳ to sing this song for free."
+        }
+      ],
+      "effects": [
+        "Remove up to 4 damage total from any number of your\ncharacters. You gain 1 lore for each 1 damage removed\nthis way."
+      ]
+    },
+    {
+      "id": 3007,
+      "setCode": "13",
+      "fullName": "Powhatan's Staff",
+      "fullText": "STEP FORWARD ⟳, 1 ⬡ — The next character you play\nthis turn enters play exerted and gains Bodyguard until\nthe start of your next turn. (An opposing character who\nchallenges one of your characters must choose one with\nBodyguard if able.)",
+      "name": "Powhatan's Staff",
+      "type": "Item",
+      "color": "Amber",
+      "cost": 1,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "activated",
+          "name": "STEP FORWARD",
+          "effect": "The next character you play this turn enters play exerted and gains Bodyguard until the start of your next turn. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
+          "fullText": "STEP FORWARD ⟳, 1 ⬡ — The next character you play\nthis turn enters play exerted and gains Bodyguard until\nthe start of your next turn. (An opposing character who\nchallenges one of your characters must choose one with\nBodyguard if able.)",
+          "costs": [
+            "⟳",
+            "1 ⬡"
+          ],
+          "costsText": "⟳, 1 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 3011,
+      "setCode": "13",
+      "fullName": "Winnie the Pooh - Hunny Archmage",
+      "fullText": "STICK TOGETHER While you have 2 or more other\nHunny characters in play, this character gets +2 ◊.",
+      "name": "Winnie the Pooh",
+      "version": "Hunny Archmage",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Sorcerer",
+        "Hunny"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "STICK TOGETHER",
+          "effect": "While you have 2 or more other Hunny characters in play, this character gets +2 ◊.",
+          "fullText": "STICK TOGETHER While you have 2 or more other\nHunny characters in play, this character gets +2 ◊."
+        }
+      ]
+    },
+    {
+      "id": 3015,
+      "setCode": "13",
+      "fullName": "Meilin Lee - Superficially Obedient",
+      "fullText": "NEWFOUND CONFIDENCE When you shift a\ncharacter on top of her, this character gains\nEvasive until the start of your next turn. (Only\ncharacters with Evasive can challenge them.)",
+      "name": "Meilin Lee",
+      "version": "Superficially Obedient",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Red Panda"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "NEWFOUND CONFIDENCE",
+          "effect": "When you shift a character on top of her, this character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",
+          "fullText": "NEWFOUND CONFIDENCE When you shift a\ncharacter on top of her, this character gains\nEvasive until the start of your next turn. (Only\ncharacters with Evasive can challenge them.)"
+        }
+      ]
+    },
+    {
+      "id": 3028,
+      "setCode": "13",
+      "fullName": "Morph - Little Imitator",
+      "fullText": "ADVANCED MIMICRY You can shift any character\non top of this character. (This includes all Shift\nvariants.)",
+      "name": "Morph",
+      "version": "Little Imitator",
+      "type": "Character",
+      "color": "Amethyst",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Alien"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "ADVANCED MIMICRY",
+          "effect": "You can shift any character on top of this character. (This includes all Shift variants.)",
+          "fullText": "ADVANCED MIMICRY You can shift any character\non top of this character. (This includes all Shift\nvariants.)"
+        }
+      ]
+    },
+    {
+      "id": 3033,
+      "setCode": "13",
+      "fullName": "Winnie the Pooh & Piglet - Hunny Mages",
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top\nof one of your characters named Winnie the Pooh\nor Piglet.)\nMAGICAL MIX This character gets +1 ◊ for each\ndifferent ink type of characters you have in play.",
+      "name": "Winnie the Pooh & Piglet",
+      "names": [
+        "Piglet",
+        "Winnie the Pooh"
+      ],
+      "version": "Hunny Mages",
+      "type": "Character",
+      "color": "Amethyst-Sapphire",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 4,
+      "lore": 0,
+      "subtypes": [
+        "Dreamborn",
+        "Team",
+        "Hero",
+        "Sorcerer",
+        "Hunny"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top\nof one of your characters named Winnie the Pooh\nor Piglet.)",
+          "keyword": "Shift",
+          "keywordValue": "3",
+          "keywordValueNumber": 3,
+          "reminderText": "You may pay 3 ⬡ to play this on top of one of your characters named Winnie the Pooh or Piglet."
+        },
+        {
+          "type": "static",
+          "name": "MAGICAL MIX",
+          "effect": "This character gets +1 ◊ for each different ink type of characters you have in play.",
+          "fullText": "MAGICAL MIX This character gets +1 ◊ for each\ndifferent ink type of characters you have in play."
+        }
+      ]
+    },
+    {
+      "id": 3062,
+      "setCode": "13",
+      "fullName": "Posey - Vampire Potato",
+      "fullText": "Potato Shift 5 ⬡ (You may pay 5 ⬡ to play this\non top of one of your items named Potato.)",
+      "name": "Posey",
+      "version": "Vampire Potato",
+      "type": "Character",
+      "color": "Emerald",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 7,
+      "willpower": 8,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Monster"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Potato Shift 5 ⬡ (You may pay 5 ⬡ to play this\non top of one of your items named Potato.)",
+          "keyword": "Potato Shift",
+          "keywordValue": "5",
+          "keywordValueNumber": 5,
+          "reminderText": "You may pay 5 ⬡ to play this on top of one of your items named Potato."
+        }
+      ]
+    },
+    {
+      "id": 3070,
+      "setCode": "13",
+      "fullName": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+      "fullText": "Duo Shift 0 ⬡ (You may pay 0 ⬡ to play this on\ntop of two of your characters, one named Mickey\nMouse and one named Minnie Mouse.)\nTHINKING OF YOU If this character would be\nbanished, put them into your inkwell facedown\nand exerted instead.",
+      "name": "Mickey Mouse & Minnie Mouse",
+      "names": [
+        "Mickey Mouse",
+        "Minnie Mouse"
+      ],
+      "version": "Adventuring Duo",
+      "type": "Character",
+      "color": "Emerald-Sapphire",
+      "cost": 7,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 5,
+      "subtypes": [
+        "Dreamborn",
+        "Team",
+        "Hero"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Duo Shift 0 ⬡ (You may pay 0 ⬡ to play this on\ntop of two of your characters, one named Mickey\nMouse and one named Minnie Mouse.)",
+          "keyword": "Duo Shift",
+          "keywordValue": "0",
+          "keywordValueNumber": 0,
+          "reminderText": "You may pay 0 ⬡ to play this on top of two of your characters, one named Mickey Mouse and one named Minnie Mouse."
+        },
+        {
+          "type": "static",
+          "name": "THINKING OF YOU",
+          "effect": "If this character would be banished, put them into your inkwell facedown and exerted instead.",
+          "fullText": "THINKING OF YOU If this character would be\nbanished, put them into your inkwell facedown\nand exerted instead."
+        }
+      ]
+    },
+    {
+      "id": 3076,
+      "setCode": "13",
+      "fullName": "Potato",
+      "fullText": "FULL OF POTENTIAL This item enters play exerted.",
+      "name": "Potato",
+      "type": "Item",
+      "color": "Emerald",
+      "cost": 1,
+      "inkwell": true,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "FULL OF POTENTIAL",
+          "effect": "This item enters play exerted.",
+          "fullText": "FULL OF POTENTIAL This item enters play exerted."
+        }
+      ]
+    },
+    {
+      "id": 3078,
+      "setCode": "13",
+      "fullName": "Vine Pod",
+      "fullText": "FRAGILE HUSK This item enters play exerted.\nREGENERATE ⟳, 1 ⬡ — Banish chosen character of\nyours. You may play a character with the same name as\nthat character for free.",
+      "name": "Vine Pod",
+      "type": "Item",
+      "color": "Emerald",
+      "cost": 4,
+      "inkwell": false,
+      "abilities": [
+        {
+          "type": "static",
+          "name": "FRAGILE HUSK",
+          "effect": "This item enters play exerted.",
+          "fullText": "FRAGILE HUSK This item enters play exerted."
+        },
+        {
+          "type": "activated",
+          "name": "REGENERATE",
+          "effect": "Banish chosen character of yours. You may play a character with the same name as that character for free.",
+          "fullText": "REGENERATE ⟳, 1 ⬡ — Banish chosen character of\nyours. You may play a character with the same name as\nthat character for free.",
+          "costs": [
+            "⟳",
+            "1 ⬡"
+          ],
+          "costsText": "⟳, 1 ⬡"
+        }
+      ]
+    },
+    {
+      "id": 3090,
+      "setCode": "13",
+      "fullName": "Sun Yee - Red Panda Spirit",
+      "fullText": "Temporary Red Panda Shift 2 ⬡ (You may pay\n2 ⬡ to play this on top of one of your Red Panda\ncharacters. At the end of your turn, remove all\ndamage from this character and return only this\ncard to your hand.)",
+      "name": "Sun Yee",
+      "version": "Red Panda Spirit",
+      "type": "Character",
+      "color": "Ruby",
+      "cost": 5,
+      "inkwell": true,
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Red Panda"
+      ],
+      "abilities": [
+        {
+          "type": "keyword",
+          "fullText": "Temporary Red Panda Shift 2 ⬡ (You may pay\n2 ⬡ to play this on top of one of your Red Panda\ncharacters. At the end of your turn, remove all\ndamage from this character and return only this\ncard to your hand.)",
+          "keyword": "Temporary Red Panda Shift",
+          "keywordValue": "2",
+          "keywordValueNumber": 2,
+          "reminderText": "You may pay 2 ⬡ to play this on top of one of your Red Panda characters. At the end of your turn, remove all damage from this character and return only this card to your hand."
+        }
+      ]
+    },
+    {
+      "id": 3116,
+      "setCode": "13",
+      "fullName": "Roz - Always Watching",
+      "fullText": "ALWAYS Each opponent plays with the top card\nof their deck faceup.",
+      "name": "Roz",
+      "version": "Always Watching",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Monster"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "ALWAYS",
+          "effect": "Each opponent plays with the top card of their deck faceup.",
+          "fullText": "ALWAYS Each opponent plays with the top card\nof their deck faceup."
+        }
+      ]
+    },
+    {
+      "id": 3117,
+      "setCode": "13",
+      "fullName": "Merlin - Envisioning the Future",
+      "fullText": "MINOR TRICKERY When you play this character,\nyou may draw a card from the bottom of\nyour deck.\nAGE OF INCONVENIENCE When this character is\nbanished, put this card from your discard on the\nbottom of your deck.",
+      "name": "Merlin",
+      "version": "Envisioning the Future",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 4,
+      "inkwell": false,
+      "strength": 1,
+      "willpower": 4,
+      "lore": 2,
+      "subtypes": [
+        "Dreamborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "MINOR TRICKERY",
+          "effect": "When you play this character, you may draw a card from the bottom of your deck.",
+          "fullText": "MINOR TRICKERY When you play this character,\nyou may draw a card from the bottom of\nyour deck."
+        },
+        {
+          "type": "triggered",
+          "name": "AGE OF INCONVENIENCE",
+          "effect": "When this character is banished, put this card from your discard on the bottom of your deck.",
+          "fullText": "AGE OF INCONVENIENCE When this character is\nbanished, put this card from your discard on the\nbottom of your deck."
+        }
+      ]
+    },
+    {
+      "id": 3119,
+      "setCode": "13",
+      "fullName": "Belle - Always Reading",
+      "fullText": "DREAMING OF MORE You pay 1 ⬡ less to shift a\ncharacter on top of this character.",
+      "name": "Belle",
+      "version": "Always Reading",
+      "type": "Character",
+      "color": "Sapphire",
+      "cost": 2,
+      "inkwell": true,
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "abilities": [
+        {
+          "type": "static",
+          "name": "DREAMING OF MORE",
+          "effect": "You pay 1 ⬡ less to shift a character on top of this character.",
+          "fullText": "DREAMING OF MORE You pay 1 ⬡ less to shift a\ncharacter on top of this character."
+        }
+      ]
+    },
+    {
+      "id": 3160,
+      "setCode": "13",
+      "fullName": "Flynn Rider - High-Climbing Rogue",
+      "fullText": "WE CAN WORK THIS OUT Whenever an opponent\nchooses this character for an action or ability,\nthey choose and discard a card.",
+      "name": "Flynn Rider",
+      "version": "High-Climbing Rogue",
+      "type": "Character",
+      "color": "Steel",
+      "cost": 3,
+      "inkwell": true,
+      "strength": 3,
+      "willpower": 2,
+      "lore": 2,
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "abilities": [
+        {
+          "type": "triggered",
+          "name": "WE CAN WORK THIS OUT",
+          "effect": "Whenever an opponent chooses this character for an action or ability, they choose and discard a card.",
+          "fullText": "WE CAN WORK THIS OUT Whenever an opponent\nchooses this character for an action or ability,\nthey choose and discard a card."
+        }
+      ]
+    }
+,
+    {
+      "abilities": [
+        {
+          "effect": "For each exerted character in play, you pay 1 ⬡ less to play this character.",
+          "fullText": "THANKS FOR NOTICIN' ME For each exerted character in\nplay, you pay 1 ⬡ less to play this character.",
+          "name": "THANKS FOR NOTICIN' ME",
+          "type": "static"
+        },
+        {
+          "effect": "When you play this character, for each opposing player, you may choose a character of theirs. They can't ready at the start of their next turn.",
+          "fullText": "SORRY ABOUT THAT When you play this character, for\neach opposing player, you may choose a character of\ntheirs. They can't ready at the start of their next turn.",
+          "name": "SORRY ABOUT THAT",
+          "type": "triggered"
+        }
+      ],
+      "allowedInFormats": {
+        "Core": {
+          "allowed": true
+        },
+        "Infinity": {
+          "allowed": true
+        }
+      },
+      "allowedInTournamentsFromDate": "2026-02-13",
+      "artists": [
+        "Matthew Robert Davies"
+      ],
+      "artistsText": "Matthew Robert Davies",
+      "code": "Es",
+      "color": "Amethyst",
+      "cost": 9,
+      "enchantedId": 2689,
+      "externalLinks": {
+        "cardTraderId": 371657,
+        "cardTraderUrl": "https://www.cardtrader.com/cards/371657",
+        "cardmarketId": 871211,
+        "cardmarketUrl": "https://www.cardmarket.com/en/Lorcana/Products/Singles/Winterspell/Eeyore-In-the-Way-V1?language=1",
+        "tcgPlayerId": 674852,
+        "tcgPlayerUrl": "https://www.tcgplayer.com/product/674852"
+      },
+      "foilTypes": [
+        "None",
+        "Silver"
+      ],
+      "fullIdentifier": "45/204 • EN • 11",
+      "fullName": "Eeyore - In the Way",
+      "fullText": "THANKS FOR NOTICIN' ME For each exerted character in\nplay, you pay 1 ⬡ less to play this character.\nSORRY ABOUT THAT When you play this character, for\neach opposing player, you may choose a character of\ntheirs. They can't ready at the start of their next turn.",
+      "fullTextSections": [
+        "THANKS FOR NOTICIN' ME For each exerted character in\nplay, you pay 1 ⬡ less to play this character.",
+        "SORRY ABOUT THAT When you play this character, for\neach opposing player, you may choose a character of\ntheirs. They can't ready at the start of their next turn."
+      ],
+      "id": 2508,
+      "images": {
+        "foilMask": "https://api.lorcana.ravensburger.com/images/en/set11/45_569fee49752acd41d96462ee9e9d539f928e54f7.jpg",
+        "full": "https://api.lorcana.ravensburger.com/images/en/set11/45_b3cdfb12fc7188d5bf904aae6722f7f4db93ab44.jpg",
+        "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/45_f831c42e1003ad2749972b61256bf4db2ecb56eb.jpg"
+      },
+      "inkwell": true,
+      "lore": 2,
+      "name": "Eeyore",
+      "number": 45,
+      "rarity": "Rare",
+      "setCode": "11",
+      "simpleName": "eeyore in the way",
+      "story": "Winnie the Pooh",
+      "strength": 5,
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "subtypesText": "Storyborn • Ally",
+      "type": "Character",
+      "version": "In the Way",
+      "willpower": 5
+    },
+    {
+      "abilities": [
+        {
+          "effect": "If you have a character named Fat Cat in play, you may play this card for free.",
+          "fullText": "WELCOME BACK, SIR If you have a character named\nFat Cat in play, you may play this card for free.",
+          "name": "WELCOME BACK, SIR",
+          "type": "static"
+        },
+        {
+          "effect": "Your locations can't be challenged by characters with cost 2 or less.",
+          "fullText": "COOL CATS ONLY Your locations can't be challenged\nby characters with cost 2 or less.",
+          "name": "COOL CATS ONLY",
+          "type": "static"
+        }
+      ],
+      "allowedInFormats": {
+        "Core": {
+          "allowed": true
+        },
+        "Infinity": {
+          "allowed": true
+        }
+      },
+      "allowedInTournamentsFromDate": "2026-05-08",
+      "artists": [
+        "Veronica Di Lorenzo",
+        "Livio Cacciatore"
+      ],
+      "artistsText": "Veronica Di Lorenzo / Livio Cacciatore",
+      "code": "L3",
+      "color": "Steel",
+      "cost": 3,
+      "externalLinks": {
+        "cardTraderId": 388730,
+        "cardTraderUrl": "https://www.cardtrader.com/cards/388730",
+        "cardmarketId": 885783,
+        "cardmarketUrl": "https://www.cardmarket.com/en/Lorcana/Products/Singles/Wilds-Unknown/Club-Door?language=1",
+        "tcgPlayerId": 690725,
+        "tcgPlayerUrl": "https://www.tcgplayer.com/product/690725"
+      },
+      "foilTypes": [
+        "None",
+        "Silver"
+      ],
+      "fullIdentifier": "202/204 • EN • 12",
+      "fullName": "Club Door",
+      "fullText": "WELCOME BACK, SIR If you have a character named\nFat Cat in play, you may play this card for free.\nCOOL CATS ONLY Your locations can't be challenged\nby characters with cost 2 or less.",
+      "fullTextSections": [
+        "WELCOME BACK, SIR If you have a character named\nFat Cat in play, you may play this card for free.",
+        "COOL CATS ONLY Your locations can't be challenged\nby characters with cost 2 or less."
+      ],
+      "id": 2917,
+      "images": {
+        "foilMask": "https://api.lorcana.ravensburger.com/images/en/set12/202_02a5f9bf38bef7f7f474663b80c0cbb370c2c5fe.jpg",
+        "full": "https://api.lorcana.ravensburger.com/images/en/set12/202_89a9b62386c17b965375eec7700638157068f4eb.jpg",
+        "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/202_b83df7c05bc6db9e6578bb7fcd37a3a6aabf5a46.jpg"
+      },
+      "inkwell": true,
+      "name": "Club Door",
+      "number": 202,
+      "rarity": "Uncommon",
+      "setCode": "12",
+      "simpleName": "club door",
+      "story": "Chip 'n Dale: Rescue Rangers",
+      "type": "Item"
+    }
+  ]
+}

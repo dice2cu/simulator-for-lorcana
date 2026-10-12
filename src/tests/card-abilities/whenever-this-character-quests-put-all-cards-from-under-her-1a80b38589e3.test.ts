@@ -1,0 +1,59 @@
+import * as engine from "../../engine/engine";
+import { Rules as RuleQueries } from "../../engine/rules";
+import type { Resolution } from "../../engine/resolution";
+import type { GameState as ScenarioState } from "../../model/game-state";
+import { testCards, emptyPlayer, playerAt, cardIds, cardStates, inPlay, printedEffect } from "../player/fixtures";
+import { resolvePlayers, finished } from "../player/resolve-players";
+// Converted from reference/card-abilities/whenever-this-character-quests-put-all-cards-from-under-her-1a80b38589e3.test.ts
+import { describe, expect, it } from "vitest";
+import type { Effect } from "../../model/ability";
+// Generated ability ID: 1a80b38589e3
+const abilityText = "Whenever this character quests, put all cards from under her into your hand.";
+const cardsWithEffect = [
+    // BEGIN GENERATED CARD LIST
+    "Alice - Well-Read Whisper",
+    // END GENERATED CARD LIST
+];
+const prototypeCardName = cardsWithEffect[0];
+describe(abilityText, () => {
+    it("behaves correctly", async () => {
+        const scenarioCards = testCards();
+        let scenarioGame: ScenarioState = { turn: { number: 1, player: 1 }, players: { 1: emptyPlayer(), 2: emptyPlayer() } };
+        let scenarioResolution: Resolution | undefined;
+        const scenarioRules = () => scenarioResolution?.rules ?? new RuleQueries(scenarioGame, scenarioCards.lookup);
+        playerAt(scenarioGame, 1).play = cardStates(scenarioCards, [prototypeCardName]);
+        playerAt(scenarioGame, 1).deck = cardIds(
+            scenarioCards,
+            [
+                scenarioCards.fixture({
+                    fullName: "Under",
+                    names: ["Under"],
+                    type: "Action",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    effect: { type: "Sequence", effects: [] },
+                }),
+            ].reverse(),
+        );
+        const player = playerAt(scenarioGame, 1);
+        const source = playerAt(scenarioGame, 1).play[0];
+        const under = playerAt(scenarioGame, 1).deck.pop();
+        if (!under) throw new Error("Under-card fixture was not created.");
+        inPlay(scenarioRules(), source.card).under = [under].map((card) => ({ card, faceDown: true }));
+        const ability: Effect = printedEffect(scenarioCards.definition(source.card.fullName), 1);
+        {
+            const sourceDefinition = scenarioCards.definition(source.card.fullName);
+            scenarioResolution = engine.startEffect(
+                scenarioGame,
+                ability,
+                { card: source.card, player: 1, kind: sourceDefinition.type === "Action" ? "Action" : "Ability" },
+                { card: scenarioCards.lookup },
+            );
+            resolvePlayers(scenarioResolution, {});
+            scenarioGame = finished(scenarioResolution);
+        }
+        expect(playerAt(scenarioGame, 1).hand).toContainEqual(under);
+    });
+});

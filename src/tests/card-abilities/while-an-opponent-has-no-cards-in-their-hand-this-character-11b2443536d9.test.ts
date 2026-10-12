@@ -1,0 +1,111 @@
+import { Rules as RuleQueries } from "../../engine/rules";
+import type { GameState as ScenarioState } from "../../model/game-state";
+import { testCards, emptyPlayer, playerAt, cardIds, cardStates } from "../player/fixtures";
+// Converted from reference/card-abilities/while-an-opponent-has-no-cards-in-their-hand-this-character-11b2443536d9.test.ts
+import { describe, expect, it } from "vitest";
+// Generated ability ID: 11b2443536d9
+const abilityText = "While an opponent has no cards in their hand, this character gets +2 ◊.";
+const cardsWithEffect = [
+    // BEGIN GENERATED CARD LIST
+    "Belle - Bookworm",
+    // END GENERATED CARD LIST
+];
+const prototypeCardName = cardsWithEffect[0];
+describe(abilityText, () => {
+    it("behaves correctly", async () => {
+        const scenarioCards = testCards();
+        let scenarioGame: ScenarioState = { turn: { number: 1, player: 1 }, players: { 1: emptyPlayer(), 2: emptyPlayer() } };
+        const scenarioRules = () => new RuleQueries(scenarioGame, scenarioCards.lookup);
+        playerAt(scenarioGame, 1).play = cardStates(scenarioCards, [
+            prototypeCardName,
+            {
+                definition: scenarioCards.fixture({
+                    fullName: "Exerted Ally One",
+                    names: ["Exerted Ally One"],
+                    type: "Character",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    strength: 0,
+                    willpower: 8,
+                    lore: 0,
+                }),
+                exerted: !false,
+                damage: 1,
+            },
+            {
+                definition: scenarioCards.fixture({
+                    fullName: "Exerted Ally Two",
+                    names: ["Exerted Ally Two"],
+                    type: "Character",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    strength: 0,
+                    willpower: 8,
+                    lore: 0,
+                }),
+                exerted: !false,
+                damage: 1,
+            },
+        ]);
+        playerAt(scenarioGame, 2).play = cardStates(scenarioCards, [
+            {
+                definition: scenarioCards.fixture({
+                    fullName: "Damaged Opponent One",
+                    names: ["Damaged Opponent One"],
+                    type: "Character",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    strength: 0,
+                    willpower: 8,
+                    lore: 0,
+                }),
+                damage: 1,
+            },
+            {
+                definition: scenarioCards.fixture({
+                    fullName: "Damaged Opponent Two",
+                    names: ["Damaged Opponent Two"],
+                    type: "Character",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    strength: 0,
+                    willpower: 8,
+                    lore: 0,
+                }),
+                damage: 1,
+            },
+            {
+                definition: scenarioCards.fixture({
+                    fullName: "Damaged Opponent Three",
+                    names: ["Damaged Opponent Three"],
+                    type: "Character",
+                    colors: ["Amber"],
+                    subtypes: [],
+                    cost: 0,
+                    inkwell: false,
+                    strength: 0,
+                    willpower: 8,
+                    lore: 0,
+                }),
+                damage: 1,
+            },
+        ]);
+        playerAt(scenarioGame, 1).inkwell = Array.from({ length: 2 }, () => ({ card: scenarioCards.create("Dinglehopper"), exerted: false }));
+        playerAt(scenarioGame, 1).inkwell.forEach((card) => {
+            card.exerted = !false;
+        });
+        playerAt(scenarioGame, 2).lore = 12;
+        playerAt(scenarioGame, 2).hand = cardIds(scenarioCards, []);
+        const player = playerAt(scenarioGame, 1);
+        const source = playerAt(scenarioGame, 1).play[0];
+        expect(scenarioRules().characteristic(source.card, "Lore")).toBe((scenarioRules().characteristic(source.card, "Lore", true) ?? 0) + 2);
+    });
+});

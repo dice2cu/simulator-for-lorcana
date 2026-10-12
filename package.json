@@ -1,0 +1,33 @@
+{
+  "name": "simulator-for-lorcana",
+  "version": "0.0.1",
+  "description": "A simulator for Lorcana TCG games",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && esbuild src/index.ts --bundle --format=esm --platform=browser --target=es2022 --outfile=dist/index.mjs",
+    "cards:embed": "esbuild src/scripts/embed-cards.mts --bundle --platform=node --format=esm --outfile=temp/embed-cards.mjs --log-level=warning && node temp/embed-cards.mjs",
+    "typecheck": "tsc --noEmit",
+    "simulate": "esbuild src/scripts/simulate.mts --bundle --platform=node --format=esm --outfile=temp/simulate.mjs --log-level=warning && node temp/simulate.mjs",
+    "benchmark": "esbuild src/scripts/benchmark-engine.mts --bundle --platform=node --format=esm --outfile=temp/benchmark-engine.mjs --log-level=warning && node temp/benchmark-engine.mjs",
+    "compare-bots": "esbuild src/scripts/compare-bots.mts --bundle --platform=node --format=esm --outfile=temp/compare-bots.mjs --log-level=warning && node temp/compare-bots.mjs",
+    "benchmark:bots": "esbuild src/scripts/benchmark-bots.mts --bundle --platform=node --format=esm --outfile=temp/benchmark-bots.mjs --log-level=warning && node temp/benchmark-bots.mjs",
+    "fuzz": "esbuild src/scripts/fuzz.mts --bundle --platform=node --format=esm --outfile=temp/fuzz.mjs --log-level=warning && node temp/fuzz.mjs",
+    "abilities": "esbuild src/scripts/generate-ability-tests.mts --bundle --platform=node --format=esm --outfile=temp/generate-ability-tests.mjs --log-level=warning && node temp/generate-ability-tests.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:parser": "vitest run src/tests/parser",
+    "test:model": "vitest run src/tests/model",
+    "download:cards": "node src/scripts/download-cards.mts",
+    "update:cards": "npm run download:cards && npm run cards:embed",
+    "parse:cards": "esbuild src/scripts/parse-cards.mts --bundle --platform=node --format=esm --outfile=temp/parse-cards.mjs --log-level=warning && node temp/parse-cards.mjs"
+  },
+  "author": "",
+  "license": "(MIT OR Unlicense)",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "esbuild": "^0.28.2",
+    "prettier": "^3.9.9",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
+  }
+}
